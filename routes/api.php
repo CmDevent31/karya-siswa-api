@@ -2,11 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\ArticleController;
-use App\Http\Controllers\CommentController;
-use App\Http\Controllers\ProductController;
-use App\Http\Controllers\ProductStockController;
-use App\Http\Controllers\TableCategoryController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -19,8 +15,13 @@ use App\Http\Controllers\TableCategoryController;
 |
 */
 
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
+Route::controller(AuthController::class)->group(function () {
+    Route::post('login', [AuthController::class, 'login']);
+    Route::post('register', [AuthController::class, 'register']);
+    Route::post('logout', [AuthController::class, 'logout']);
+    Route::post('refresh', [AuthController::class, 'refresh']);
+    Route::put('update-profile', [AuthController::class, 'update']);
+
 });
 Route::get('/list',[TableCategoryController::class,'index']);
 Route::post('/store',[TableCategoryController::class,'create']);
