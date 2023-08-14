@@ -2,9 +2,11 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\LoginController;
 use App\Http\Controllers\KontakController;
 use App\Http\Controllers\TimKamiController;
 use App\Http\Controllers\TestimoniController;
+use App\Http\Controllers\RegistrasiController;
 use App\Http\Controllers\TentangKamiController;
 use App\Http\Controllers\PageNotFoundController;
 use App\Http\Controllers\PembelajaranController;
@@ -31,3 +33,5 @@ Route::get('/TimKami', [TimKamiController::class, 'index']);
 Route::get('/Kontak', [KontakController::class, 'index']);
 Route::get('/Testimoni', [TestimoniController::class, 'index']);
 Route::get('/PageNotFound', [PageNotFoundController::class, 'index']);
+Route::get('/Login', [LoginController ::class, 'index']);
+Route::get('/Registrasi', [RegistrasiController ::class, 'index']);
