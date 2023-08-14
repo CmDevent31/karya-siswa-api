@@ -63,8 +63,8 @@
                     </div>
                 </div>
                 <a href="/Kontak" class="nav-item nav-link">Kontak</a>
+                <a href="/Login" class="nav-item nav-link">Login</a>
             </div>
-            <a href="" class="btn btn-danger py-4 px-lg-5 d-none d-lg-block">Join Now<i class="fa fa-arrow-right ms-3"></i></a>
         </div>
     </nav>
     <!-- Navbar End -->
