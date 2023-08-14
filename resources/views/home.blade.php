@@ -19,16 +19,21 @@
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
 
     <!-- Libraries Stylesheet -->
     <link href="lib/animate/animate.min.css" rel="stylesheet">
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link rel ="stylesheet" href="style.css">
+    
 </head>
 
 <body>
@@ -44,7 +49,7 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
         <a href="/Home" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-            <h2 class="m-0 text-danger"><i class="fas fa-users	"></i>KaryaSiswa</h2>
+            <h2 class="m-0 text-danger"><i class="fas fa-users me-3"></i>KaryaSiswa</h2>
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -74,7 +79,7 @@
     <div class="container-fluid p-0 mb-5">
         <div class="owl-carousel header-carousel position-relative">
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/carousel-1.jpg" alt="">
+                <img class="img-fluid" src="https://smktelkom-bdg.sch.id/wp-content/uploads/2019/11/WhatsApp-Image-2019-08-03-at-09.51.58-min-1024x682.jpeg" alt="">
                 <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(24, 29, 56, .7);">
                     <div class="container">
                         <div class="row justify-content-start">
@@ -90,7 +95,7 @@
                 </div>
             </div>
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/carousel-2.jpg" alt="">
+                <img class="img-fluid" src="https://smktelkom-bdg.sch.id/wp-content/uploads/2019/11/IMG_1683-min-e1584110696332.jpg" alt="">
                 <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(24, 29, 56, .7);">
                     <div class="container">
                         <div class="row justify-content-start">
@@ -265,12 +270,10 @@
                         <div class="position-relative overflow-hidden">
                             <img class="img-fluid" src="img/course-1.jpg" alt="">
                             <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
-                                <a href="#" class="flex-shrink-0 btn btn-sm btn-danger px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
-                                <a href="#" class="flex-shrink-0 btn btn-sm btn-danger px-3" style="border-radius: 0 30px 30px 0;">Join Now</a>
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-danger px-3 border-end" style="border-radius: 30px 30px 30px 30px;">Read More</a>
                             </div>
                         </div>
                         <div class="text-center p-4 pb-0">
-                            <h3 class="mb-0">$149.00</h3>
                             <div class="mb-3">
                                 <small class="fa fa-star text-danger"></small>
                                 <small class="fa fa-star text-danger"></small>
@@ -293,12 +296,10 @@
                         <div class="position-relative overflow-hidden">
                             <img class="img-fluid" src="img/course-2.jpg" alt="">
                             <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
-                                <a href="#" class="flex-shrink-0 btn btn-sm btn-danger px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
-                                <a href="#" class="flex-shrink-0 btn btn-sm btn-danger px-3" style="border-radius: 0 30px 30px 0;">Join Now</a>
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-danger px-3 border-end" style="border-radius: 30px 30px 30px 30px;">Read More</a>
                             </div>
                         </div>
                         <div class="text-center p-4 pb-0">
-                            <h3 class="mb-0">$149.00</h3>
                             <div class="mb-3">
                                 <small class="fa fa-star text-danger"></small>
                                 <small class="fa fa-star text-danger"></small>
@@ -321,12 +322,10 @@
                         <div class="position-relative overflow-hidden">
                             <img class="img-fluid" src="img/course-3.jpg" alt="">
                             <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
-                                <a href="#" class="flex-shrink-0 btn btn-sm btn-danger px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
-                                <a href="#" class="flex-shrink-0 btn btn-sm btn-danger px-3" style="border-radius: 0 30px 30px 0;">Join Now</a>
+                                <a href="#" class="flex-shrink-0 btn btn-sm btn-danger px-3 border-end" style="border-radius: 30px 30px 30px 30px;">Read More</a>
                             </div>
                         </div>
                         <div class="text-center p-4 pb-0">
-                            <h3 class="mb-0">$149.00</h3>
                             <div class="mb-3">
                                 <small class="fa fa-star text-danger"></small>
                                 <small class="fa fa-star text-danger"></small>
@@ -440,16 +439,16 @@
     <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container">
             <div class="text-center">
-                <h6 class="section-title bg-white text-center text-danger px-3">Testimonial</h6>
+                <h6 class="section-title bg-white text-center text-danger px-3">Testimoni</h6>
                 <h1 class="mb-5">Our Students Say!</h1>
             </div>
             <div class="owl-carousel testimonial-carousel position-relative">
                 <div class="testimonial-item text-center">
                     <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-1.jpg" style="width: 80px; height: 80px;">
-                    <h5 class="mb-0">Client Name</h5>
-                    <p>Profession</p>
-                    <div class="testimonial-text bg-light text-center p-4">
-                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                    <h5 class="mb-0">Ahik</h5>
+                    <p>C.S</p>
+                    <div class="testimonial-text bg-light text-center p-4" >
+                    <p class="mb-0">Medan tempur itu seru</p>
                     </div>
                 </div>
                 <div class="testimonial-item text-center">
@@ -577,6 +576,8 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script src ="js/bootstrap.bundle.min.js" ></script>
+
 </body>
 
 </html>
