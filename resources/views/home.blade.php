@@ -44,11 +44,11 @@
         </div>
     </div>
     <!-- Spinner End -->
-
+ 
 
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
-        <a href="/Home" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0" style="border-radius: 0 0 30px 30px;">
+        <a href="/KaryaSiswa" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
             <h2 class="m-0 text-danger"><i class="fas fa-users me-3"></i>KaryaSiswa</h2>
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -68,8 +68,9 @@
                     </div>
                 </div>
                 <a href="/Kontak" class="nav-item nav-link">Kontak</a>
+                <a href="/Login" class="nav-item nav-link">Login</a>
             </div>
-            <a href="" class="btn btn-danger py-4 px-lg-5 d-none d-lg-block">Join Now<i class="fa fa-arrow-right ms-3"></i></a>
+           
         </div>
     </nav>
     <!-- Navbar End -->
@@ -79,7 +80,7 @@
     <div class="container-fluid p-0 mb-5">
         <div class="owl-carousel header-carousel position-relative">
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="https://smktelkom-bdg.sch.id/wp-content/uploads/2019/11/WhatsApp-Image-2019-08-03-at-09.51.58-min-1024x682.jpeg" alt="">
+                <img class="img-fluid" src="https://smktelkom-bdg.sch.id/wp-content/uploads/2019/11/WhatsApp-Image-2019-08-03-at-09.51.58-min-1024x682.jpeg" alt="Image" height="20" width="20">
                 <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(24, 29, 56, .7);">
                     <div class="container">
                         <div class="row justify-content-start">
@@ -274,19 +275,10 @@
                             </div>
                         </div>
                         <div class="text-center p-4 pb-0">
-                            <div class="mb-3">
-                                <small class="fa fa-star text-danger"></small>
-                                <small class="fa fa-star text-danger"></small>
-                                <small class="fa fa-star text-danger"></small>
-                                <small class="fa fa-star text-danger"></small>
-                                <small class="fa fa-star text-danger"></small>
-                                <small>(123)</small>
-                            </div>
                             <h5 class="mb-4">Web Design & Development Course for Beginners</h5>
                         </div>
                         <div class="d-flex border-top">
                             <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-danger me-2"></i>John Doe</small>
-                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-danger me-2"></i>1.49 Hrs</small>
                             <small class="flex-fill text-center py-2"><i class="fa fa-user text-danger me-2"></i>30 Students</small>
                         </div>
                     </div>
@@ -300,19 +292,10 @@
                             </div>
                         </div>
                         <div class="text-center p-4 pb-0">
-                            <div class="mb-3">
-                                <small class="fa fa-star text-danger"></small>
-                                <small class="fa fa-star text-danger"></small>
-                                <small class="fa fa-star text-danger"></small>
-                                <small class="fa fa-star text-danger"></small>
-                                <small class="fa fa-star text-danger"></small>
-                                <small>(123)</small>
-                            </div>
                             <h5 class="mb-4">Web Design & Development Course for Beginners</h5>
                         </div>
                         <div class="d-flex border-top">
                             <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-danger me-2"></i>John Doe</small>
-                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-danger me-2"></i>1.49 Hrs</small>
                             <small class="flex-fill text-center py-2"><i class="fa fa-user text-danger me-2"></i>30 Students</small>
                         </div>
                     </div>
@@ -326,19 +309,10 @@
                             </div>
                         </div>
                         <div class="text-center p-4 pb-0">
-                            <div class="mb-3">
-                                <small class="fa fa-star text-danger"></small>
-                                <small class="fa fa-star text-danger"></small>
-                                <small class="fa fa-star text-danger"></small>
-                                <small class="fa fa-star text-danger"></small>
-                                <small class="fa fa-star text-danger"></small>
-                                <small>(123)</small>
-                            </div>
                             <h5 class="mb-4">Web Design & Development Course for Beginners</h5>
                         </div>
                         <div class="d-flex border-top">
                             <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-danger me-2"></i>John Doe</small>
-                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-danger me-2"></i>1.49 Hrs</small>
                             <small class="flex-fill text-center py-2"><i class="fa fa-user text-danger me-2"></i>30 Students</small>
                         </div>
                     </div>
@@ -447,7 +421,7 @@
                     <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-1.jpg" style="width: 80px; height: 80px;">
                     <h5 class="mb-0">Ahik</h5>
                     <p>C.S</p>
-                    <div class="testimonial-text bg-light text-center p-4" >
+                    <div class="testimonial-text bg-light text-center p-4"  style="border-radius: 30px 30px 30px 30px;">
                     <p class="mb-0">Medan tempur itu seru</p>
                     </div>
                 </div>
@@ -455,7 +429,7 @@
                     <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-2.jpg" style="width: 80px; height: 80px;">
                     <h5 class="mb-0">Client Name</h5>
                     <p>Profession</p>
-                    <div class="testimonial-text bg-light text-center p-4">
+                    <div class="testimonial-text bg-light text-center p-4"style="border-radius: 30px 30px 30px 30px;">
                     <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
                     </div>
                 </div>
@@ -463,7 +437,7 @@
                     <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-3.jpg" style="width: 80px; height: 80px;">
                     <h5 class="mb-0">Client Name</h5>
                     <p>Profession</p>
-                    <div class="testimonial-text bg-light text-center p-4">
+                    <div class="testimonial-text bg-light text-center p-4"style="border-radius: 30px 30px 30px 30px;">
                     <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
                     </div>
                 </div>
@@ -471,7 +445,7 @@
                     <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-4.jpg" style="width: 80px; height: 80px;">
                     <h5 class="mb-0">Client Name</h5>
                     <p>Profession</p>
-                    <div class="testimonial-text bg-light text-center p-4">
+                    <div class="testimonial-text bg-light text-center p-4"style="border-radius: 30px 30px 30px 30px;">
                     <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
                     </div>
                 </div>
@@ -482,7 +456,7 @@
         
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s" style="border-radius: 30px 30px 0 0;">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
