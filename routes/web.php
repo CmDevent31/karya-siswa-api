@@ -1,6 +1,13 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\KontakController;
+use App\Http\Controllers\TimKamiController;
+use App\Http\Controllers\TestimoniController;
+use App\Http\Controllers\TentangKamiController;
+use App\Http\Controllers\PageNotFoundController;
+use App\Http\Controllers\PembelajaranController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +23,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/Home', [HomeController::class, 'index']);
+Route::get('/TentangKami', [TentangKamiController::class, 'index']);
+Route::get('/Pembelajaran', [PembelajaranController::class, 'index']);
+Route::get('/TimKami', [TimKamiController::class, 'index']);
+Route::get('/Kontak', [KontakController::class, 'index']);
+Route::get('/Testimoni', [TestimoniController::class, 'index']);
+Route::get('/PageNotFound', [PageNotFoundController::class, 'index']);
