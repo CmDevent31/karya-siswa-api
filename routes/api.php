@@ -2,6 +2,12 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AuthController;
+use App\Http\Controllers\ArticleController;
+use App\Http\Controllers\CommentController;
+use App\Http\Controllers\ProductController;
+use App\Http\Controllers\ProductStockController;
+use App\Http\Controllers\TableCategoryController;
 
 
 /*
@@ -20,7 +26,7 @@ Route::controller(AuthController::class)->group(function () {
     Route::post('register', [AuthController::class, 'register']);
     Route::post('logout', [AuthController::class, 'logout']);
     Route::post('refresh', [AuthController::class, 'refresh']);
-    Route::put('update-profile', [AuthController::class, 'update']);
+    Route::put('update-profile/{id}', [AuthController::class, 'update']);
 
 });
 Route::get('/list',[TableCategoryController::class,'index']);
@@ -39,10 +45,12 @@ Route::get('/listcomment',[CommentController::class,'index']);
 Route::post('/add',[CommentController::class,'create']);
 Route::put('/deletecomment/{id}',[CommentController::class,'destroy']);
 
-Route::post('/membuatproduk',[ProductController::class,'create']);
+Route::post('/addproduk',[ProductController::class,'add']);
 Route::get('/listproduk',[ProductController::class,'index']);
 Route::get('/detailproduk/{id}',[ProductController::class,'detail']);
 Route::post('/updateproduk/{id}',[ProductController::class,'update']);
 Route::put('/deleteproduk/{id}',[ProductController::class,'destroy']);
-// Route::post('/membuatstock',[ProductStockController::class,'add']);
-// Route::get('/listprodukstock',[ProductStockController::class,'index']);
+
+Route::post('/membuatstock',[ProductStockController::class,'add']);
+Route::get('/stocklist',[ProductStockController::class,'index']);
+Route::post('/updatestock/{id}',[ProductStockController::class,'update']);
