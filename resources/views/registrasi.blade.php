@@ -38,54 +38,501 @@
 
 
     <body>
-        <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
-        <a href="/Home" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-            <h2 class="m-0 text-danger"><i class="fas fa-users me-3"></i>KaryaSiswa</h2>
-        </a>
-        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="/Home" class="nav-item nav-link active">Home</a>
-                <a href="/TentangKami" class="nav-item nav-link">TentangKami</a>
-                <a href="/Pembelajaran" class="nav-item nav-link">Pembelajaran</a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">List</a>
-                    <div class="dropdown-menu fade-dqown m-0">
-                        <a href="/TimKami" class="dropdown-item">TimKami</a>
-                        <a href="/Testimoni" class="dropdown-item">Testimoni</a>
-                        <a href="/PageNotFound" class="dropdown-item">PageNotFound</a>
-                    </div>
-                </div>
-                <a href="/Kontak" class="nav-item nav-link">Kontak</a>
+
+
+        
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-danger" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
             </div>
-            <a href="" class="btn btn-danger py-4 px-lg-5 d-none d-lg-block">Join Now<i class="fa fa-arrow-right ms-3"></i></a>
         </div>
-    </nav>
-    <!-- Navbar End -->
+        <!-- Spinner End -->
+    
+    
+        <!-- Navbar Start -->
+        <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0" style="border-radius: 0 0 30px 30px;">
+            <a href="/KaryaSiswa" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+                <h2 class="m-0 text-danger"><i class="fas fa-users me-3"></i>KaryaSiswa</h2>
+            </a>
+            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <a href="/Home" class="nav-item nav-link">Home</a>
+                    <a href="/TentangKami" class="nav-item nav-link active">TentangKami</a>
+                    <a href="/Pembelajaran" class="nav-item nav-link">Pembelajaran</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">List</a>
+                        <div class="dropdown-menu fade-down m-0">
+                            <a href="/Guru" class="dropdown-item">GuruKami</a>
+                            <a href="/TimKami" class="dropdown-item">TimKami</a>
+                            <a href="/Testimoni" class="dropdown-item">Testimoni</a>
+                            <a href="/PageNotFound" class="dropdown-item">PageNotFound</a>
+                        </div>
+                    </div>
+                    <a href="/Kontak" class="nav-item nav-link">Kontak</a>
+                    <a href="/Login" class="nav-item nav-link">Login</a>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+
+
         <div class="container"style="border-radius: 30px 30px 30px 30px;">
          <h1>Register</h1>
             <form>
-                <label>Username</label>
-                <br>
-                <input type="text">
-                <br>
-                <label>Email</label>
-                <br>
-                <input type="text">
-                <br>
-                <label>Password</label>
-                <br>
-                <input type="password">
-                <br>
-                <button>Register</button>
+                <label>Username</label><br>
+                <input type="text"><br>
+                <label>Email</label><br>
+                <input type="text"><br>
+                <label>Password</label><br>
+                <input type="password"><br>
+                <button class="text-center" >Register</button>
                 <p> Sudah punya akun?
                   <a href="/Login">Login di sini</a>
-                </p>
+                </p></form>
+            </div>
                 
                 <style>
+                    /********** Template CSS **********/
+:root {
+    --primary: #ff0000;
+    --light: #F0FBFC;
+    --dark: #181d38;
+}
+
+.fw-medium {
+    font-weight: 600 !important;
+}
+
+.fw-semi-bold {
+    font-weight: 700 !important;
+}
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    right: 45px;
+    bottom: 45px;
+    z-index: 99;
+}
+
+
+/*** Spinner ***/
+#spinner {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .5s ease-out, visibility 0s linear .5s;
+    z-index: 99999;
+}
+
+#spinner.show {
+    transition: opacity .5s ease-out, visibility 0s linear 0s;
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/*** Button ***/
+.btn {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    transition: .5s;
+}
+
+.btn.btn-primary,
+.btn.btn-secondary {
+    color: #FFFFFF;
+}
+
+.btn-square {
+    width: 38px;
+    height: 38px;
+}
+
+.btn-sm-square {
+    width: 32px;
+    height: 32px;
+}
+
+.btn-lg-square {
+    width: 48px;
+    height: 48px;
+}
+
+.btn-square,
+.btn-sm-square,
+.btn-lg-square {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    border-radius: 0px;
+}
+
+
+/*** Navbar ***/
+.navbar .dropdown-toggle::after {
+    border: none;
+    content: "\f107";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    vertical-align: middle;
+    margin-left: 8px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    margin-right: 30px;
+    padding: 25px 0;
+    color: #FFFFFF;
+    font-size: 15px;
+    text-transform: uppercase;
+    outline: none;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active {
+    color: var(--primary);
+}
+
+@media (max-width: 991.98px) {
+    .navbar-light .navbar-nav .nav-link  {
+        margin-right: 0;
+        padding: 10px 0;
+    }
+
+    .navbar-light .navbar-nav {
+        border-top: 1px solid #EEEEEE;
+    }
+}
+
+.navbar-light .navbar-brand,
+.navbar-light a.btn {
+    height: 75px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: var(--dark);
+    font-weight: 500;
+}
+
+.navbar-light.sticky-top {
+    top: -5px;
+    transition: .5s;
+}
+
+@media (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: block;
+        margin-top: 0;
+        opacity: 0;
+        visibility: hidden;
+        transition: .5s;
+    }
+
+    .navbar .dropdown-menu.fade-down {
+        top: 100%;
+        transform: rotateX(-75deg);
+        transform-origin: 0% 0%;
+    }
+
+    .navbar .nav-item:hover .dropdown-menu {
+        top: 100%;
+        transform: rotateX(0deg);
+        visibility: visible;
+        transition: .5s;
+        opacity: 1;
+    }
+}
+
+
+
+
+/*** Header carousel ***/
+@media (max-width: 768px) {
+    .header-carousel .owl-carousel-item {
+        position: relative;
+        min-height: 500px;
+    }
+    
+    .header-carousel .owl-carousel-item img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.header-carousel .owl-nav {
+    position: absolute;
+    top: 50%;
+    right: 8%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+}
+
+.header-carousel .owl-nav .owl-prev,
+.header-carousel .owl-nav .owl-next {
+    margin: 7px 0;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    font-size: 22px;
+    transition: .5s;
+}
+
+.header-carousel .owl-nav .owl-prev:hover,
+.header-carousel .owl-nav .owl-next:hover {
+    background: var(--primary);
+    border-color: var(--primary);
+}
+
+.page-header {
+    background: linear-gradient(rgba(24, 29, 56, .7), rgba(24, 29, 56, .7)), url(../img/carousel-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page-header-inner {
+    background: rgba(15, 23, 43, .7);
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    color: var(--light);
+}
+
+
+/*** Section Title ***/
+.section-title {
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.section-title::before {
+    position: absolute;
+    content: "";
+    width: calc(100% + 80px);
+    height: 2px;
+    top: 4px;
+    left: -40px;
+    background: var(--primary);
+    z-index: -1;
+}
+
+.section-title::after {
+    position: absolute;
+    content: "";
+    width: calc(100% + 120px);
+    height: 2px;
+    bottom: 5px;
+    left: -60px;
+    background: var(--primary);
+    z-index: -1;
+}
+
+.section-title.text-start::before {
+    width: calc(100% + 40px);
+    left: 0;
+}
+
+.section-title.text-start::after {
+    width: calc(100% + 60px);
+    left: 0;
+}
+
+
+/*** Service ***/
+.service-item {
+    background: var(--light);
+    transition: .5s;
+}
+
+.service-item:hover {
+    margin-top: -10px;
+    background: var(--primary);
+}
+
+.service-item * {
+    transition: .5s;
+}
+
+.service-item:hover * {
+    color: var(--light) !important;
+}
+
+
+/*** Categories & Courses ***/
+.category img,
+.course-item img {
+    transition: .5s;
+}
+
+.category a:hover img,
+.course-item:hover img {
+    transform: scale(1.1);
+}
+
+
+/*** Team ***/
+.team-item img {
+    transition: .5s;
+}
+
+.team-item:hover img {
+    transform: scale(1.1);
+}
+
+
+/*** Testimonial ***/
+.testimonial-carousel::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    z-index: 1;
+}
+
+.testimonial-carousel::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    z-index: 1;
+}
+
+@media (min-width: 768px) {
+    .testimonial-carousel::before,
+    .testimonial-carousel::after {
+        width: 200px;
+    }
+}
+
+@media (min-width: 992px) {
+    .testimonial-carousel::before,
+    .testimonial-carousel::after {
+        width: 300px;
+    }
+}
+
+.testimonial-carousel .owl-item .testimonial-text,
+.testimonial-carousel .owl-item.center .testimonial-text * {
+    transition: .5s;
+}
+
+.testimonial-carousel .owl-item.center .testimonial-text {
+    background: var(--primary) !important;
+}
+
+.testimonial-carousel .owl-item.center .testimonial-text * {
+    color: #FFFFFF !important;
+}
+
+.testimonial-carousel .owl-dots {
+    margin-top: 24px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.testimonial-carousel .owl-dot {
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #CCCCCC;
+    transition: .5s;
+}
+
+.testimonial-carousel .owl-dot.active {
+    background: var(--primary);
+    border-color: var(--primary);
+}
+
+
+/*** Footer ***/
+.footer .btn.btn-social {
+    margin-right: 5px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--light);
+    font-weight: normal;
+    border: 1px solid #FFFFFF;
+    border-radius: 35px;
+    transition: .3s;
+}
+
+.footer .btn.btn-social:hover {
+    color: var(--primary);
+}
+
+.footer .btn.btn-link {
+    display: block;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: capitalize;
+    transition: .3s;
+}
+
+.footer .btn.btn-link::before {
+    position: relative;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+.footer .btn.btn-link:hover {
+    letter-spacing: 1px;
+    box-shadow: none;
+}
+
+.footer .copyright {
+    padding: 25px 0;
+    font-size: 15px;
+    border-top: 1px solid rgba(256, 256, 256, .1);
+}
+
+.footer .copyright a {
+    color: var(--light);
+}
+
+.footer .footer-menu a {
+    margin-right: 15px;
+    padding-right: 15px;
+    border-right: 1px solid rgba(255, 255, 255, .1);
+}
+
+.footer .footer-menu a:last-child {
+    margin-right: 0;
+    padding-right: 0;
+    border-right: none;
+}
                     *{
     margin: 0;
     padding: 0;
@@ -94,7 +541,7 @@
 }
 body{
     height: 100vh;
-    background-image: url(data:image/jpeg;base64,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);
+    background-image: url(https://img.freepik.com/premium-vector/abstract-white-bg-02-edit_7505-1800.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -150,96 +597,19 @@ a {
 .container form button{
     width: 100%;
     height: 30px;
-    padding: 5px 0;
-    border: none;
+    padding: 20px 0;
+    border: red;
     background-color:#d35151;
-    font-size: 18px;
+    font-size: 20;
     color: #fafafa;
     border-radius: 20px;
 }
 </style>
 
-    <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-3">Quick Link</h4>
-                    <a class="btn btn-link" href="">About Us</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
-                    <a class="btn btn-link" href="">Privacy Policy</a>
-                    <a class="btn btn-link" href="">Terms & Condition</a>
-                    <a class="btn btn-link" href="">FAQs & Help</a>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-3">Contact</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
-                    <div class="d-flex pt-2">
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-3">Gallery</h4>
-                    <div class="row g-2 pt-2">
-                        <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="img/course-1.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="img/course-2.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="img/course-3.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="img/course-2.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="img/course-3.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="img/course-1.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-3">Newsletter</h4>
-                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-                    <div class="position-relative mx-auto" style="max-width: 400px;">
-                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                        <button type="button" class="btn btn-danger py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="copyright">
-                <div class="row">
-                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved.
+    
+            
 
-                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                        Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
-                    </div>
-                    <div class="col-md-6 text-center text-md-end">
-                        <div class="footer-menu">
-                            <a href="">Home</a>
-                            <a href="">Cookies</a>
-                            <a href="">Help</a>
-                            <a href="">FQAs</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Footer End -->
-            </form>
-        </div>
+        
         
         <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>

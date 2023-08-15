@@ -51,19 +51,21 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="/Prestasi" class="dropdown-item">Prestasi</a>
                 <a href="/Home" class="nav-item nav-link">Home</a>
                 <a href="/TentangKami" class="nav-item nav-link">TentangKami</a>
                 <a href="/Pembelajaran" class="nav-item nav-link active">Pembelajaran</a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">List</a>
-                    <div class="dropdown-menu fade-down m-0">
+                <a href="/Kontak" class="nav-item nav-link">Kontak</a>
+                <a href="/Login" class="nav-item nav-link">Login</a>
+                <div class="navbar-nav ms-auto p-4 p-lg-0"> <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle px-2 px-lg-2 " data-bs-toggle="dropdown"></a>
+                    <div class="dropdown-menu fade-down m-9">
+                        <a href="/Guru" class="dropdown-item">GuruKami</a>
                         <a href="/TimKami" class="dropdown-item">TimKami</a>
-                        <a href="/Testimoni" class="dropdown-item ">Testimoni</a>
+                        <a href="/Testimoni" class="dropdown-item">Testimoni</a>
                         <a href="/PageNotFound" class="dropdown-item">PageNotFound</a>
                     </div>
                 </div>
-                <a href="/Kontak" class="nav-item nav-link">Kontak</a>
-                <a href="/Login" class="nav-item nav-link">Login</a>
             </div>
         </div>
     </nav>
@@ -93,8 +95,8 @@
     <div class="container-xxl py-5 category">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-danger px-3">Kategori</h6>
-                <h1 class="mb-5">Kategori Pembelajaran</h1>
+                <h6 class="section-title bg-white text-center text-danger px-3">Studi</h6>
+                <h1 class="mb-5">Program Studi</h1>
             </div>
             <div class="row g-3">
                 <div class="col-lg-7 col-md-6">
@@ -103,8 +105,8 @@
                             <a class="position-relative d-block overflow-hidden" href="">
                                 <img class="img-fluid" src="img/cat-1.jpg" alt="">
                                 <div class="bg-light text-center position-absolute bottom-0 end-0 py-2 px-3" style="border-radius: 30px 0 0 0;">
-                                    <h5 class="m-0">Web Design</h5>
-                                    <small class="text-danger">49 Courses</small>
+                                    <h5 class="m-0">TKJ</h5>
+                                    <small class="text-danger">5 Materi</small>
                                 </div>
                             </a>
                         </div>
@@ -142,110 +144,57 @@
     </div>
     <!-- Categories Start -->
 
-
-    <!-- Courses Start -->
-    <div class="container-xxl py-5">
+    <!-- Service Start -->
+    <div class="container-xxl py-5"class= "text-secondary">
         <div class="container">
+            <div class="row g-4">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-danger px-3">Pembelajaran</h6>
-                <h1 class="mb-5">Pembelajaran </h1>
+                <h6 class="section-title bg-white text-center text-danger px-3">Produktivitas</h6>
+                <h1 class="mb-5">Berbagai Macam Pembelajaran</h1>
             </div>
-            <div class="row g-4 justify-content-center">
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="course-item bg-light">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/course-1.jpg" alt="">
-                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
-                                <a href="#" class="flex-shrink-0 btn btn-sm btn-danger px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
-                                <a href="#" class="flex-shrink-0 btn btn-sm btn-danger px-3" style="border-radius: 0 30px 30px 0;">Join Now</a>
-                            </div>
-                        </div>
-                        <div class="text-center p-4 pb-0">
-                            <h3 class="mb-0">$149.00</h3>
-                            <div class="mb-3">
-                                <small class="fa fa-star text-danger"></small>
-                                <small class="fa fa-star text-danger"></small>
-                                <small class="fa fa-star text-danger"></small>
-                                <small class="fa fa-star text-danger"></small>
-                                <small class="fa fa-star text-danger"></small>
-                                <small>(123)</small>
-                            </div>
-                            <h5 class="mb-4">Web Design & Development Course for Beginners</h5>
-                        </div>
-                        <div class="d-flex border-top">
-                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-danger me-2"></i>John Doe</small>
-                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-danger me-2"></i>1.49 Hrs</small>
-                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-danger me-2"></i>30 Students</small>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s"style="border-radius: 30px 30px 30px 30px;">
+                    <div class="service-item text-center pt-3 "style="border-radius: 30px 30px 30px 30px;">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-graduation-cap text-dark mb-4"></i>
+                            <h5 class="mb-3">Skilled Instructors</h5>
+                            <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="course-item bg-light">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/course-2.jpg" alt="">
-                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
-                                <a href="#" class="flex-shrink-0 btn btn-sm btn-danger px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
-                                <a href="#" class="flex-shrink-0 btn btn-sm btn-danger px-3" style="border-radius: 0 30px 30px 0;">Join Now</a>
-                            </div>
-                        </div>
-                        <div class="text-center p-4 pb-0">
-                            <h3 class="mb-0">$149.00</h3>
-                            <div class="mb-3">
-                                <small class="fa fa-star text-danger"></small>
-                                <small class="fa fa-star text-danger"></small>
-                                <small class="fa fa-star text-danger"></small>
-                                <small class="fa fa-star text-danger"></small>
-                                <small class="fa fa-star text-danger"></small>
-                                <small>(123)</small>
-                            </div>
-                            <h5 class="mb-4">Web Design & Development Course for Beginners</h5>
-                        </div>
-                        <div class="d-flex border-top">
-                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-danger me-2"></i>John Doe</small>
-                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-danger me-2"></i>1.49 Hrs</small>
-                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-danger me-2"></i>30 Students</small>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s"style="border-radius: 30px 30px 30px 30px;">
+                    <div class="service-item text-center pt-3"style="border-radius: 30px 30px 30px 30px;">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-globe text-dark mb-4"></i>
+                            <h5 class="mb-3">Online Classes</h5>
+                            <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="course-item bg-light">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/course-3.jpg" alt="">
-                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
-                                <a href="#" class="flex-shrink-0 btn btn-sm btn-danger px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
-                                <a href="#" class="flex-shrink-0 btn btn-sm btn-danger px-3" style="border-radius: 0 30px 30px 0;">Join Now</a>
-                            </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s"style="border-radius: 30px 30px 30px 30px;">
+                    <div class="service-item text-center pt-3"style="border-radius: 30px 30px 30px 30px;">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-home text-dark mb-4"></i>
+                            <h5 class="mb-3">Home Projects</h5>
+                            <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
                         </div>
-                        <div class="text-center p-4 pb-0">
-                            <h3 class="mb-0">$149.00</h3>
-                            <div class="mb-3">
-                                <small class="fa fa-star text-danger"></small>
-                                <small class="fa fa-star text-danger"></small>
-                                <small class="fa fa-star text-danger"></small>
-                                <small class="fa fa-star text-danger"></small>
-                                <small class="fa fa-star text-danger"></small>
-                                <small>(123)</small>
-                            </div>
-                            <h5 class="mb-4">Web Design & Development Course for Beginners</h5>
-                        </div>
-                        <div class="d-flex border-top">
-                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-danger me-2"></i>John Doe</small>
-                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-danger me-2"></i>1.49 Hrs</small>
-                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-danger me-2"></i>30 Students</small>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s"style="border-radius: 30px 30px 30px 30px;">
+                    <div class="service-item text-center pt-3"style="border-radius: 30px 30px 30px 30px;">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-book-open text-dark mb-4"></i>
+                            <h5 class="mb-3">Book Library</h5>
+                            <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Courses End -->
-
-
-    
-        
+    <!-- Service End -->
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s" style="border-radius: 30px 30px 0 0;">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
@@ -258,9 +207,9 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-3">Contact</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Derwati Cuy</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>0882-1899-0208</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>alwaysongaming10@gmail.com</p>
                     <div class="d-flex pt-2">
                         <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
@@ -269,25 +218,13 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-3">Gallery</h4>
+                    <h4 class="text-white mb-3">Maps</h4>
                     <div class="row g-2 pt-2">
-                        <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="img/course-1.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="img/course-2.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="img/course-3.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="img/course-2.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="img/course-3.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="img/course-1.jpg" alt="">
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                            <iframe class="position-relative rounded w-200 h-200"
+                                src="https://maps.google.com/maps?q=smk%20telkom%20bandung&#038;t=m&#038;z=10&#038;output=embed&#038;iwloc=near"
+                                frameborder="0" style="min-height: 200px; border:200px;" allowfullscreen="" aria-hidden="false"
+                                tabindex="0"></iframe>
                         </div>
                     </div>
                 </div>
@@ -305,14 +242,14 @@
             <div class="copyright">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved.
+                        &copy; <a class="border-bottom" href="#">KaryaSiswa</a>, All Right Reserved.
 
                         <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
                         Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
                     </div>
                     <div class="col-md-6 text-center text-md-end">
                         <div class="footer-menu">
-                            <a href="">Home</a>
+                            <a href="/Home">Home</a>
                             <a href="">Cookies</a>
                             <a href="">Help</a>
                             <a href="">FQAs</a>
