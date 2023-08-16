@@ -57,6 +57,7 @@
                     <div class="dropdown-menu fade-down m-9">
                         <a href="/Pembelajaran" class="dropdown-item">Pembelajaran</a>
                         <a href="/Ekskul" class="dropdown-item">Ekskul</a>
+                        <a href="/GaleriSekolah" class="dropdown-item">GaleriSekolah</a>
                         <a href="/Testimoni" class="dropdown-item">Testimoni</a>
                     </div>
                 </div>
