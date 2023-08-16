@@ -117,7 +117,7 @@ a {
     padding: 20px 25px;
     width: 300px;
 
-    background-color: rgba(0,0,0,.7);
+    background-color: rgba(212, 175, 175, 0.7);
     box-shadow: 0 0 10px rgba(255,255,255,.3);
 }
 .container h1{
