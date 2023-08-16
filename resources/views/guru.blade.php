@@ -42,7 +42,7 @@
 
 
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0" style="border-radius: 0 0 30px 30px;">
         <a href="/KaryaSiswa" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
             <h2 class="m-0 text-danger"><i class="fas fa-users me-3"></i>KaryaSiswa</h2>
         </a>
@@ -50,20 +50,24 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto p-4 p-lg-0">
+            <div class="navbar-nav ms-auto p-4 p-lg-0"> 
                 <a href="/Home" class="nav-item nav-link">Home</a>
-                <a href="/TentangKami" class="nav-item nav-link">TentangKami</a>
-                <a href="/Pembelajaran" class="nav-item nav-link active">Pembelajaran</a>
-               
-                <a href="/Kontak" class="nav-item nav-link">Kontak</a>
-                <a href="/Login" class="nav-item nav-link">Login</a>
-                <div class="navbar-nav ms-auto p-4 p-lg-0"> <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle px-2 px-lg-2 " data-bs-toggle="dropdown"></a>
+                <div class="nav-item dropdown text-danger">
+                    <a href="/Home" class="nav-link dropdown-toggle px-4 px-lg-2 nav-item nav-link " data-bs-toggle="dropdown">Kegiatan</a>
                     <div class="dropdown-menu fade-down m-9">
-                        <a href="/Prestasi" class="dropdown-item">Prestasi</a>
-                        <a href="/Guru" class="dropdown-item">GuruKami</a>
-                        <a href="/TimKami" class="dropdown-item">TimKami</a>
+                        <a href="/Pembelajaran" class="dropdown-item">Pembelajaran</a>
+                        <a href="/Ekskul" class="dropdown-item">Ekskul</a>
                         <a href="/Testimoni" class="dropdown-item">Testimoni</a>
+                    </div>
+                </div>
+                <a href="/Prestasi" class="nav-item nav-link">Prestasi</a>
+                <a href="/Guru" class="nav-item nav-link">GuruKami</a>
+                <a href="/TentangKami" class="nav-item nav-link">TentangKami</a>
+                <a href="/Login" class="nav-item nav-link">Login</a>
+                <div class="nav-item dropdown text-danger">
+                    <a href="#" class="nav-link dropdown-toggle px-4 px-lg-2 nav-item nav-link " data-bs-toggle="dropdown"></a>
+                    <div class="dropdown-menu fade-down m-9">
+                        <a href="/TimKami" class="dropdown-item">TimKami</a>
                         <a href="/PageNotFound" class="dropdown-item">PageNotFound</a>
                     </div>
                 </div>
@@ -78,11 +82,11 @@
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-10 text-center">
-                    <h1 class="display-3 text-white animated slideInDown">Pembelajaran</h1>
+                    <h1 class="display-3 text-white animated slideInDown">GuruKami</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center">
                             <li class="breadcrumb-item"><a class="text-white" href="/Home">Home</a></li>
-                            <li class="breadcrumb-item text-white active" aria-current="page">Pembelajaran</li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">GuruKami</li>
                         </ol>
                     </nav>
                 </div>

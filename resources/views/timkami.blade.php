@@ -42,7 +42,7 @@
 
 
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0" style="border-radius: 0 0 30px 30px;">
         <a href="/KaryaSiswa" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
             <h2 class="m-0 text-danger"><i class="fas fa-users me-3"></i>KaryaSiswa</h2>
         </a>
@@ -50,22 +50,27 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto p-4 p-lg-0">
+            <div class="navbar-nav ms-auto p-4 p-lg-0"> 
                 <a href="/Home" class="nav-item nav-link">Home</a>
-                <a href="/TentangKami" class="nav-item nav-link">TentangKami</a>
-                <a href="/Pembelajaran" class="nav-item nav-link">Pembelajaran</a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">List</a>
-                    <div class="dropdown-menu fade-down m-0">
-                        <a href="/Prestasi" class="dropdown-item">Prestasi</a>
-                        <a href="/Guru" class="dropdown-item">GuruKami</a>
-                        <a href="/TimKami" class="dropdown-item active">TimKami</a>
+                <div class="nav-item dropdown text-danger">
+                    <a href="/Home" class="nav-link dropdown-toggle px-4 px-lg-2 nav-item nav-link " data-bs-toggle="dropdown">Kegiatan</a>
+                    <div class="dropdown-menu fade-down m-9">
+                        <a href="/Pembelajaran" class="dropdown-item">Pembelajaran</a>
+                        <a href="/Ekskul" class="dropdown-item">Ekskul</a>
                         <a href="/Testimoni" class="dropdown-item">Testimoni</a>
+                    </div>
+                </div>
+                <a href="/Prestasi" class="nav-item nav-link">Prestasi</a>
+                <a href="/Guru" class="nav-item nav-link">GuruKami</a>
+                <a href="/TentangKami" class="nav-item nav-link">TentangKami</a>
+                <a href="/Login" class="nav-item nav-link">Login</a>
+                <div class="nav-item dropdown text-danger">
+                    <a href="#" class="nav-link dropdown-toggle px-4 px-lg-2 nav-item nav-link " data-bs-toggle="dropdown"></a>
+                    <div class="dropdown-menu fade-down m-9">
+                        <a href="/TimKami" class="dropdown-item bg-danger text-white active">TimKami</a>
                         <a href="/PageNotFound" class="dropdown-item">PageNotFound</a>
                     </div>
                 </div>
-                <a href="/Kontak" class="nav-item nav-link">Kontak</a>
-                <a href="/Login" class="nav-item nav-link">Login</a>
             </div>
         </div>
     </nav>
@@ -95,154 +100,75 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-danger px-3">Instructors</h6>
-                <h1 class="mb-5">Expert Instructors</h1>
+                <h6 class="section-title bg-white text-center text-danger px-3">Tim</h6>
+                <h1 class="mb-5">Tim Kami</h1>
             </div>
             <div class="row g-4">
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/team-1.jpg" alt="">
+                    <div class="team-item bg-light"style="border-radius: 30px 30px 30px 30px;">
+                        <div class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
+                            <img class="img-fluid" src="img/WhatsApp Image 2023-08-15 at 11.04.13.jpg" style="border-radius: 30px 30px 30px 30px;"alt="">
                         </div>
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
                             <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                                <a class="btn btn-sm-square btn-danger mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-sm-square btn-danger mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-sm-square btn-danger mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn my-button align-self-start-sm-square btn-danger mx-1" href="https://www.instagram.com/mlkyyy.sa/"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Instructor Name</h5>
-                            <small>Designation</small>
+                            <h5 class="mb-0">Malky Sudrajat Asshidiq</h5>
+                            <small>BackEnd Developer</small>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/team-2.jpg" alt="">
+                    <div class="team-item bg-light" style="border-radius: 30px 30px 30px 30px;">
+                        <div class="text-center position-relative overflow-hidden" style="border-radius: 30px 30px 30px 30px;">
+                            <img class="img-fluid" width="155" height="100" style="border-radius: 30px 30px 30px 30px;" src="img/WhatsApp Image 2023-05-03 at 14.23.01.jpg"  alt="" >
                         </div>
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
                             <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                                <a class="btn btn-sm-square btn-danger mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-sm-square btn-danger mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-sm-square btn-danger mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn my-button align-self-start-sm-square btn-danger mx-1" href="https://www.instagram.com/touzen_aima/"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Instructor Name</h5>
-                            <small>Designation</small>
+                            <h5 class="mb-0">Muhammad Naufal Hartono</h5>
+                            <small>BackEnd Developer</small>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/team-3.jpg" alt="">
+                    <div class="team-item bg-light"style="border-radius: 30px 30px 30px 30px;">
+                        <div class="text-center position-relative overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
+                            <img class="img-fluid" width="135" height="100"src="img/WhatsApp Image 2023-05-03 at 14.32.58 (2).jpg" alt=""style="border-radius: 30px 30px 30px 30px;">
                         </div>
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
                             <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                                <a class="btn btn-sm-square btn-danger mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-sm-square btn-danger mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-sm-square btn-danger mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn my-button align-self-start-sm-square btn-danger mx-1" href="https://www.instagram.com/fall_official09/"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Instructor Name</h5>
-                            <small>Designation</small>
+                            <h5 class="mb-0">Rifady Aghra Ghani</h5>
+                            <small>FrontEnd Developer</small>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/team-4.jpg" alt="">
+                    <div class="team-item bg-light"style="border-radius: 30px 30px 30px 30px;">
+                        <div class="text-center position-relative overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
+                            <img class="img-fluid"width="200" height="100" src="img/9.Ghinan Muhammad Sholih.JPG" alt=""style="border-radius: 30px 30px 30px 30px;">
                         </div>
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
                             <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                                <a class="btn btn-sm-square btn-danger mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-sm-square btn-danger mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-sm-square btn-danger mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a class="btn my-button align-self-start-sm-square btn-danger mx-1" href="https://www.instagram.com/ghinanms/"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Instructor Name</h5>
-                            <small>Designation</small>
+                            <h5 class="mb-0">Ghinan Muhammad Sholih</h5>
+                            <small>FrontEnd Developer</small>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/team-2.jpg" alt="">
-                        </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
-                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                                <a class="btn btn-sm-square btn-danger mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-sm-square btn-danger mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-sm-square btn-danger mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Instructor Name</h5>
-                            <small>Designation</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/team-3.jpg" alt="">
-                        </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
-                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                                <a class="btn btn-sm-square btn-danger mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-sm-square btn-danger mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-sm-square btn-danger mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Instructor Name</h5>
-                            <small>Designation</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/team-4.jpg" alt="">
-                        </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
-                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                                <a class="btn btn-sm-square btn-danger mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-sm-square btn-danger mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-sm-square btn-danger mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Instructor Name</h5>
-                            <small>Designation</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/team-1.jpg" alt="">
-                        </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
-                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                                <a class="btn btn-sm-square btn-danger mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-sm-square btn-danger mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-sm-square btn-danger mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Instructor Name</h5>
-                            <small>Designation</small>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </div>
