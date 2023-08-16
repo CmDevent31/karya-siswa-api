@@ -540,19 +540,19 @@ body{
     background-repeat: no-repeat;
 }
 p {
-  color: rgb(165, 165, 165);
+  color: rgb(8, 8, 8);
   font-family: 'Open Sans', sans-serif;
   padding-top: 10px;
 }
 
 h1 {
   text-align: center;
-  padding-left: 100px;
+  padding-left: 26px;
   padding-bottom: 20px;
 }
 
 a {
-  color: rgb(235, 235, 235);
+  color: rgb(255, 0, 0);
   font-family: 'Open Sans', sans-serif;
 }
 .container{
@@ -560,22 +560,28 @@ a {
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
-    padding: 20px 25px;
+    padding: 20px 20px;
     width: 300px;
-
-    background-color: rgba(212, 175, 175, 0.7);
-    box-shadow: 0 0 10px rgba(255,255,255,.3);
+    
+    background: transparent;
+      border: 2px solid rgba(255, 255, 255, .2);
+      backdrop-filter: blur(1000px);
+      color:#000000;
+      border-radius: 20px;
+      border: rounded;
+      box-shadow: 10px 10px 20px #c5c5c5,-10px -10px 20px #fff;
+      overflow: hidden;
 }
 .container h1{
     text-align: left;
-    color: #fafafa;
+    color: #fa0303;
     margin-bottom: 30px;
     text-transform: uppercase;
-    border-bottom: 4px solid #535353;
+    border-bottom: 4px solid #3a2e2e;
 }
 .container label{
     text-align: left;
-    color: #e8ebec;
+    color: #f31414;
 }
 .container form input{
     width: calc(100% - 20px);
@@ -583,19 +589,28 @@ a {
     margin-bottom: 15px;
     border: none;
     background-color: transparent;
-    border-bottom: 2px solid #6b6868;
-    color: #fff;
+    border-bottom: 2px solid #302525;
+    color: #0f0202;
     font-size: 20px;
 }
 .container form button{
-    width: 100%;
-    height: 40px;
-    padding: 5px 0;
-    border: none;
-    background-color:#c94b4b;
-    font-size: 18px;
-    color: #fafafa;
-    border-radius: 20px;
+   width: 100%;
+    height: 30px;
+    padding: 20px ;
+    font-size: 20;
+    border: 0;
+padding: 12px 10px;
+outline: none;
+color: #fff;
+background: linear-gradient(to right, #fb4283, #ff3527);
+border-radius: 6px;
+cursor: pointer;
+transition: background-color 0.1ms, transform 0.2s;
+}
+
+button:hover {
+background: linear-gradient(to right, #ff3527, #fb4283);
+transform: scale(1.05);
 }
 </style>
             </form>

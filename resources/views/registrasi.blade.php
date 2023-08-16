@@ -82,7 +82,7 @@
 
 
 
-        <div class="container"style="border-radius: 30px 30px 30px 30px;">
+        <div class="container">
          <h1>Register</h1>
             <form>
                 <label>Username</label><br>
@@ -113,19 +113,19 @@ body{
     background-repeat: no-repeat;
 }
 p {
-  color: rgb(240, 225, 225);
+  color: rgb(7, 0, 0);
   font-family: 'Open Sans', sans-serif;
   padding-top: 8px;
 }
 
 h1 {
   text-align: center;
-  padding-left: 75px;
+  padding-left: 28px;
   padding-bottom: 15px;
 }
 
 a {
-  color: white;
+  color: rgb(255, 0, 0);
   font-family: 'Open Sans', sans-serif;
 }
 .container{
@@ -135,44 +135,60 @@ a {
     transform: translate(-50%,-50%);
     padding: 20px 20px;
     width: 300px;
-
-    background-color: rgba(0,0,0,.7);
-    box-shadow: 0 0 10px rgba(255,255,255,.3);
+    
+    background: transparent;
+      border: 2px solid rgba(255, 255, 255, .2);
+      backdrop-filter: blur(1000px);
+      color:#000000;
+      border-radius: 20px;
+      border: rounded;
+      box-shadow: 10px 10px 20px #c5c5c5,-10px -10px 20px #fff;
+      overflow: hidden;
 }
 .container h1{
     text-align: left;
-    color: #fafafa;
+    color: #ff0000;
     margin-bottom: 30px;
     text-transform: uppercase;
     border-bottom: 4px solid #535353;
 }
 .container label{
     text-align: left;
-    color: #e8ebec;
+    color: #ff0000;
 }
 .container form input{
     width: calc(100% - 20px);
     padding: 6px 10px;
     margin-bottom: 10px;
-    border: none;
-    background-color: transparent;
+    border: rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
     border-bottom: 2px solid #6b6868;
-    color: #fff;
+    color: #000000;
     font-size: 20px;
+    
 }
-.container form button{
+.container form button {
     width: 100%;
     height: 30px;
-    padding: 20px 0;
-    border: red;
-    background-color:#d35151;
+    padding: 20px ;
     font-size: 20;
-    color: #fafafa;
-    border-radius: 20px;
+border: 0;
+padding: 12px 10px;
+outline: none;
+color: #fff;
+background: linear-gradient(to right, #fb4283, #ff3527);
+border-radius: 6px;
+cursor: pointer;
+transition: background-color 0.1ms, transform 0.2s;
+}
+
+button:hover {
+background: linear-gradient(to right, #ff3527, #fb4283);
+transform: scale(1.05);
 }
 </style>
 
-    
+
             
 
         
