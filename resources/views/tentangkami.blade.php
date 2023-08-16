@@ -52,17 +52,22 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0"> 
                 <a href="/Home" class="nav-item nav-link">Home</a>
-                <a href="/TentangKami" class="nav-item nav-link active">TentangKami</a>
-                <a href="/Pembelajaran" class="nav-item nav-link">Pembelajaran</a>
-                <a href="/Kontak" class="nav-item nav-link">Kontak</a>
+                <div class="nav-item dropdown text-danger">
+                    <a href="/Home" class="nav-link dropdown-toggle px-4 px-lg-2 nav-item nav-link " data-bs-toggle="dropdown">Kegiatan</a>
+                    <div class="dropdown-menu fade-down m-9">
+                        <a href="/Pembelajaran" class="dropdown-item">Pembelajaran</a>
+                        <a href="/Ekskul" class="dropdown-item">Ekskul</a>
+                        <a href="/Testimoni" class="dropdown-item">Testimoni</a>
+                    </div>
+                </div>
+                <a href="/Prestasi" class="nav-item nav-link">Prestasi</a>
+                <a href="/Guru" class="nav-item nav-link">GuruKami</a>
+                <a href="/TentangKami" class="nav-item nav-link">TentangKami</a>
                 <a href="/Login" class="nav-item nav-link">Login</a>
                 <div class="nav-item dropdown text-danger">
-                    <a href="#" class="nav-link dropdown-toggle px-2 px-lg-2 nav-item nav-link " data-bs-toggle="dropdown"></a>
+                    <a href="#" class="nav-link dropdown-toggle px-4 px-lg-2 nav-item nav-link " data-bs-toggle="dropdown"></a>
                     <div class="dropdown-menu fade-down m-9">
-                        <a href="/Prestasi" class="dropdown-item">Prestasi</a>
-                        <a href="/Guru" class="dropdown-item">GuruKami</a>
                         <a href="/TimKami" class="dropdown-item">TimKami</a>
-                        <a href="/Testimoni" class="dropdown-item">Testimoni</a>
                         <a href="/PageNotFound" class="dropdown-item">PageNotFound</a>
                     </div>
                 </div>
