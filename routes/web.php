@@ -9,10 +9,12 @@ use App\Http\Controllers\KontakController;
 use App\Http\Controllers\TimKamiController;
 use App\Http\Controllers\PrestasiController;
 use App\Http\Controllers\TestimoniController;
+use App\Http\Controllers\KaryaSiswaController;
 use App\Http\Controllers\RegistrasiController;
 use App\Http\Controllers\TentangKamiController;
 use App\Http\Controllers\PageNotFoundController;
 use App\Http\Controllers\PembelajaranController;
+use App\Http\Controllers\GaleriSekolahController;
 
 /*
 |--------------------------------------------------------------------------
@@ -40,6 +42,10 @@ Route::get('/Login', [LoginController ::class, 'index']);
 Route::get('/Registrasi', [RegistrasiController ::class, 'index']);
 Route::get('/Guru', [GuruController ::class, 'index']);
 Route::get('/Prestasi', [PrestasiController ::class, 'index']);
+Route::get('/GaleriSekolah', [GaleriSekolahController ::class, 'index']);
+Route::get('/KaryaSiswa', [KaryaSiswaController ::class, 'index']);
+
+
 
 Route::get('/Ekskul', [EkskulController::class, 'index']);
 Route::get('/PageNotFound', [PageNotFoundController::class, 'index']);

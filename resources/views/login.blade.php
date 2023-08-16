@@ -60,13 +60,14 @@
                     <div class="dropdown-menu fade-down m-9">
                         <a href="/Pembelajaran" class="dropdown-item">Pembelajaran</a>
                         <a href="/Ekskul" class="dropdown-item">Ekskul</a>
+                        <a href="/GaleriSekolah" class="dropdown-item">GaleriSekolah</a>
                         <a href="/Testimoni" class="dropdown-item">Testimoni</a>
                     </div>
                 </div>
                 <a href="/Prestasi" class="nav-item nav-link">Prestasi</a>
                 <a href="/Guru" class="nav-item nav-link">GuruKami</a>
                 <a href="/TentangKami" class="nav-item nav-link">TentangKami</a>
-                <a href="/Login" class="nav-item nav-link">Login</a>
+                <a href="/Login" class="nav-item nav-link active">Login</a>
                 <div class="nav-item dropdown text-danger">
                     <a href="#" class="nav-link dropdown-toggle px-4 px-lg-2 nav-item nav-link " data-bs-toggle="dropdown"></a>
                     <div class="dropdown-menu fade-down m-9">
