@@ -1,3 +1,8 @@
+
+
+
+
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -52,51 +57,6 @@
   </div>
 
     
-
-{{-- card title --}}
-<div class="container ">
-    <div class="col-lg-15">
-        <div class="row row-cols-1 row-cols-md-3 g-4 mt-3 rounded">
-            <div class="col">
-              <div class="card text-center  h-100 mb-3">
-                <img src="https://smktelkom-bdg.sch.id/wp-content/uploads/2023/01/Banner-Vokatella-5-1024x559.png" class="img-fluid rounded-top" alt="Responsive image" style="object-fit: cover">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                </div>
-                <div class="card-footer ">
-                  <button type="button" >View</button>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card text-center h-100 mb-3">
-                <img src="https://smktelkom-bdg.sch.id/wp-content/uploads/2023/03/skuad2-768x432.png" class="img-fluid rounded-top" alt="Responsive image" style="object-fit: cover">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                </div>
-                <div class="card-footer">
-                  <button type="button" >View</button>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card text-center  h-100">
-                <img src="https://primaseru.smktelkom-bdg.sch.id/static/homepage/images/asrama.jpg" class="img-fluid rounded-top" alt="Responsive image" style="object-fit: cover">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                </div>
-                <div class="card-footer ">
-                  <button type="button">View</button>
-                </div>
-              </div>
-            </div>
-          </div>      
-</div>
-</div>
-
 {{-- content --}}
 <div class="container mt-5">
     <hr class="featurette-divider">
