@@ -42,7 +42,7 @@
 
 
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0" style="border-radius: 0 0 30px 30px;">
         <a href="/KaryaSiswa" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
             <h2 class="m-0 text-danger"><i class="fas fa-users me-3"></i>KaryaSiswa</h2>
         </a>
@@ -50,22 +50,22 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto p-4 p-lg-0">
+            <div class="navbar-nav ms-auto p-4 p-lg-0"> 
                 <a href="/Home" class="nav-item nav-link">Home</a>
                 <a href="/TentangKami" class="nav-item nav-link">TentangKami</a>
                 <a href="/Pembelajaran" class="nav-item nav-link">Pembelajaran</a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">List</a>
-                    <div class="dropdown-menu fade-down m-0">
+                <a href="/Kontak" class="nav-item nav-link">Kontak</a>
+                <a href="/Login" class="nav-item nav-link">Login</a>
+                <div class="nav-item dropdown text-danger">
+                    <a href="#" class="nav-link dropdown-toggle px-2 px-lg-2 nav-item nav-link " data-bs-toggle="dropdown"></a>
+                    <div class="dropdown-menu fade-down m-9">
                         <a href="/Prestasi" class="dropdown-item">Prestasi</a>
                         <a href="/Guru" class="dropdown-item">GuruKami</a>
                         <a href="/TimKami" class="dropdown-item">TimKami</a>
-                        <a href="/Testimoni" class="dropdown-item active">Testimoni</a>
+                        <a href="/Testimoni" class="dropdown-item bg-danger text-white active">Testimoni</a>
                         <a href="/PageNotFound" class="dropdown-item">PageNotFound</a>
                     </div>
                 </div>
-                <a href="/Kontak" class="nav-item nav-link">Kontak</a>
-                <a href="/Login" class="nav-item nav-link">Login</a>
             </div>
         </div>
     </nav>

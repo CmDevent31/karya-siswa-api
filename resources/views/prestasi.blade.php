@@ -55,106 +55,436 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto p-4 p-lg-0"> <div class="nav-item dropdown">
-                <a href="#" class="nav-link dropdown-toggle px-2 px-lg-2 " data-bs-toggle="dropdown"></a>
-                <div class="dropdown-menu fade-down m-9">
-                    <a href="/Prestasi" class="dropdown-item">Prestasi</a>
-                    <a href="/Guru" class="dropdown-item">GuruKami</a>
-                    <a href="/TimKami" class="dropdown-item">TimKami</a>
-                    <a href="/Testimoni" class="dropdown-item">Testimoni</a>
-                    <a href="/PageNotFound" class="dropdown-item">PageNotFound</a>
-                </div>
-            </div>
-                <a href="/Home" class="nav-item nav-link active">Home</a>
+            <div class="navbar-nav ms-auto p-4 p-lg-0"> 
+                <a href="/Home" class="nav-item nav-link">Home</a>
                 <a href="/TentangKami" class="nav-item nav-link">TentangKami</a>
                 <a href="/Pembelajaran" class="nav-item nav-link">Pembelajaran</a>
                 <a href="/Kontak" class="nav-item nav-link">Kontak</a>
                 <a href="/Login" class="nav-item nav-link">Login</a>
-               
+                <div class="nav-item dropdown text-danger">
+                    <a href="#" class="nav-link dropdown-toggle px-2 px-lg-2 nav-item nav-link " data-bs-toggle="dropdown"></a>
+                    <div class="dropdown-menu fade-down m-9">
+                        <a href="/Prestasi" class="dropdown-item bg-danger text-white active">Prestasi</a>
+                        <a href="/Guru" class="dropdown-item">GuruKami</a>
+                        <a href="/TimKami" class="dropdown-item">TimKami</a>
+                        <a href="/Testimoni" class="dropdown-item">Testimoni</a>
+                        <a href="/PageNotFound" class="dropdown-item">PageNotFound</a>
+                    </div>
+                </div>
             </div>
         </div>
     </nav>
     <!-- Navbar End -->
 
-
+    <!-- Header Start -->
+    <div class="container-fluid bg-primary py-5 mb-5 page-header">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <h1 class="display-3 text-white animated slideInDown">Prestasi</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item"><a class="text-white" href="/Home">Home</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Prestasi</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
 
     <!-- Team Start -->
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                 <h6 class="section-title bg-white text-center text-danger px-3">Prestasi</h6>
-                <h1 class="mb-5">Siswa/Siswi Yang Meraih Prestasi</h1>
+                <h1 class="mb-5">Siswa/siswi Yang Meraih Prestasi</h1>
             </div>
             <div class="row g-4">
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/team-1.jpg" alt="">
+                    <div class="team-item bg-light"style="border-radius: 30px 30px 30px 30px;">
+                        <div class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
+                            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active" data-bs-interval="10000">
+                                    <img src="img/kate.jpeg" class="d-block w-100" alt="..." style="border-radius: 30px 30px 30px 30px;">
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="img/campuran1.jpeg" class="d-block w-100" alt="..." style="border-radius: 30px 30px 30px 30px;">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
                         </div>
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
-                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                                <a class="btn btn-sm-square btn-danger mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-sm-square btn-danger mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-sm-square btn-danger mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1"style="border-radius: 30px 30px 30px 30px;">
+                                <a class="btn my-button align-self-start-sm-square btn-danger mx-1" style="border-radius: 30px 30px 30px 30px;"href="https://www.instagram.com/p/CvI9iDoSM4t/?img_index=1"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Instructor Name</h5>
-                            <small>Designation</small>
-                        </div>
-                    </div>
+                            <h5 class="mb-0">Selamat Kepada Ananda</h5>
+                        
+                            <b><p><small><ol><li>🏅G.Banu Prasetyo (XI TJKT 1)</li>
+                                <li>🏅Faris Akbar (XI TJKT 5)</li>
+                                <li>🏅Rafli Fahrezi Ramadhan (XII TKJ 2)</li></ol></p></b>
+                                
+                                <p class="text-center"> <b>Sebagai peraih medali emas di nomor komite pada kejuaraan karate STKIP Pasundan Cup V Sirkuit II Jawa Barat 2023.Yuk jadikan prestasi sebagai tradisi.</b></p>
+                            
+                            <br><br>@karate.smktelbdg
+                                #realchampion
+                                    #bearealdigitaltalent
+                                         #smkhebat
+                                             #smkbisa
+                            </small>
+                                </div>
+                         </div>
+                    
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/team-2.jpg" alt="">
+                    <div class="team-item bg-light"style="border-radius: 30px 30px 30px 30px;">
+                        <div class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
+                            <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active" data-bs-interval="10000">
+                                    <img src="img/tedo1.jpeg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="img/tedo2.jpeg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="img/tedo3.jpeg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="img/tedo4.jpeg" class="d-block w-100" alt="...">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
                         </div>
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
-                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                                <a class="btn btn-sm-square btn-danger mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-sm-square btn-danger mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-sm-square btn-danger mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1"style="border-radius: 30px 30px 30px 30px;">
+                                <a class="btn my-button align-self-start-sm-square btn-danger mx-1"style="border-radius: 30px 30px 30px 30px;" href="https://www.instagram.com/p/CsqJjpqhL_L/?img_index=1"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Instructor Name</h5>
-                            <small>Designation</small>
+                            <h5 class="mb-0">Congratulations!! 👏🏻💯</h5>
+                        
+                            <br><small><b>Sobat Prima! Berikut ini merupakan siswa SMK Telkom Bandung yang berhasil meraih Juara pada Lomba Taekwondo yang di gelar di SMK Marhas. Selamat atas pencapaian luar biasanya dan terima kasih atas prestasinya! Kami bangga!
+                                Be a Real Digital Talent!</b></br>
+                                
+                                
+                                    <br><br>@yptelkom
+                                @telkom_schools
+                                    @ridwankamil
+                                        @ruzhanul
+                                            @wahyu_mijaya
+                                                @arifrudiana
+                                                    @rosy.telkom
+                                
+                                </small></ul>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/team-3.jpg" alt="">
+                    <div class="team-item bg-light"style="border-radius: 30px 30px 30px 30px;">
+                        <div class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
+                            <div id="carousel2" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active" data-bs-interval="10000">
+                                    <img src="img/kate1.jpeg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="img/tedo4.jpeg" class="d-block w-100" alt="...">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
                         </div>
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
-                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                                <a class="btn btn-sm-square btn-danger mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-sm-square btn-danger mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-sm-square btn-danger mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1"style="border-radius: 30px 30px 30px 30px;">
+                                <a class="btn my-button align-self-start-sm-square btn-danger mx-1" style="border-radius: 30px 30px 30px 30px;"href="https://www.instagram.com/p/CslDTg8BRLS?img_index=1"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Instructor Name</h5>
-                            <small>Designation</small>
+                            <h5 class="mb-0">Congratulations!! 👏🏻💯</h5>
+                            <small>
+
+                                <br><b>Sobat Prima! Berikut ini merupakan siswa SMK Telkom Bandung yang berhasil meraih Juara 3 Kata Karate dan Juara 1 Kumite Karate di ajang Olimpiade Olahraga Nasional (O2SN) untuk tingkat kabupaten Bandung. Selamat atas pencapaian luar biasanya dan terima kasih atas prestasinya! Kami bangga!
+                                
+                                Be a Real Digital Talent!</b></br>
+                                
+                                
+                                    <br>@yptelkom
+                                        @telkom_schools
+                                            @ridwankamil
+                                                 @ruzhanul
+                                                    @wahyu_mijaya
+                                                         @arifrudiana
+                                                            @rosy.telkom</small>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/team-4.jpg" alt="">
+                    <div class="team-item bg-light"style="border-radius: 30px 30px 30px 30px;">
+                        <div class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
+                            <div id="carousel3" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active" data-bs-interval="10000">
+                                    <img src="img/basket.jpeg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="img/tedo4.jpeg" class="d-block w-100" alt="...">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
                         </div>
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
-                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                                <a class="btn btn-sm-square btn-danger mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-sm-square btn-danger mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-sm-square btn-danger mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1"style="border-radius: 30px 30px 30px 30px;">
+                                <a class="btn my-button align-self-start-sm-square btn-danger mx-1" style="border-radius: 30px 30px 30px 30px;"href="https://www.instagram.com/p/CslC21mBVLx/?img_index=1"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">Instructor Name</h5>
-                            <small>Designation</small>
+                            <h5 class="mb-0">Congratulations!!👏🏻💯</h5>
+                            <small><br><b>Sobat Prima! Berikut ini merupakan siswa SMK Telkom Bandung yang berhasil meraih Juara 2 Lomba Basket di ajang Olimpiade Olahraga Nasional (O2SN) untuk tingkat kabupaten Bandung. Selamat atas pencapaian luar biasanya dan terima kasih atas prestasinya! Kami bangga!
+
+                                Be a Real Digital Talent!!</br></b>
+
+                                <br>#smktelkombandung 
+                                #smktelbdg 
+                                #telkomschools 
+                                #smktelkom
+                                 #ppdb
+                                  #smkno1bandung 
+                                  #infobandung 
+                                  #infodayeuhkolot 
+                                  #pelatihan 
+                                   </small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item bg-light"style="border-radius: 30px 30px 30px 30px;">
+                        <div class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
+                            <div id="carousel4" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active" data-bs-interval="10000">
+                                    <img src="img/kate.jpeg" class="d-block w-100" alt="..." style="border-radius: 30px 30px 30px 30px;">
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="img/campuran1.jpeg" class="d-block w-100" alt="..." style="border-radius: 30px 30px 30px 30px;">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel4" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel4" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1"style="border-radius: 30px 30px 30px 30px;">
+                                <a class="btn my-button align-self-start-sm-square btn-danger mx-1" style="border-radius: 30px 30px 30px 30px;"href="https://www.instagram.com/p/CvI9iDoSM4t/?img_index=1"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Selamat Kepada Ananda</h5>
+                        
+                            <b><p><small><ol><li>🏅G.Banu Prasetyo (XI TJKT 1)</li>
+                                <li>🏅Faris Akbar (XI TJKT 5)</li>
+                                <li>🏅Rafli Fahrezi Ramadhan (XII TKJ 2)</li></ol></p></b>
+                                
+                                <p class="text-center"> <b>Sebagai peraih medali emas di nomor komite pada kejuaraan karate STKIP Pasundan Cup V Sirkuit II Jawa Barat 2023.Yuk jadikan prestasi sebagai tradisi.</b></p>
+                            
+                            <br><br>@karate.smktelbdg
+                                #realchampion
+                                    #bearealdigitaltalent
+                                         #smkhebat
+                                             #smkbisa
+                            </small>
+                                </div>
+                         </div>
+                    
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item bg-light"style="border-radius: 30px 30px 30px 30px;">
+                        <div class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
+                            <div id="carousel5" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active" data-bs-interval="10000">
+                                    <img src="img/tedo1.jpeg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="img/tedo2.jpeg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="img/tedo3.jpeg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="img/tedo4.jpeg" class="d-block w-100" alt="...">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel5" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel5" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1"style="border-radius: 30px 30px 30px 30px;">
+                                <a class="btn my-button align-self-start-sm-square btn-danger mx-1"style="border-radius: 30px 30px 30px 30px;" href="https://www.instagram.com/p/CsqJjpqhL_L/?img_index=1"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Congratulations!! 👏🏻💯</h5>
+                        
+                            <br><small><b>Sobat Prima! Berikut ini merupakan siswa SMK Telkom Bandung yang berhasil meraih Juara pada Lomba Taekwondo yang di gelar di SMK Marhas. Selamat atas pencapaian luar biasanya dan terima kasih atas prestasinya! Kami bangga!
+                                Be a Real Digital Talent!</b></br>
+                                
+                                
+                                    <br><br>@yptelkom
+                                @telkom_schools
+                                    @ridwankamil
+                                        @ruzhanul
+                                            @wahyu_mijaya
+                                                @arifrudiana
+                                                    @rosy.telkom
+                                
+                                </small></ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item bg-light"style="border-radius: 30px 30px 30px 30px;">
+                        <div class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
+                            <div id="carousel6" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active" data-bs-interval="10000">
+                                    <img src="img/kate1.jpeg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="img/tedo4.jpeg" class="d-block w-100" alt="...">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel6" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel6" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1"style="border-radius: 30px 30px 30px 30px;">
+                                <a class="btn my-button align-self-start-sm-square btn-danger mx-1" style="border-radius: 30px 30px 30px 30px;"href="https://www.instagram.com/p/CslDTg8BRLS?img_index=1"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Congratulations!! 👏🏻💯</h5>
+                            <small>
+
+                                <br><b>Sobat Prima! Berikut ini merupakan siswa SMK Telkom Bandung yang berhasil meraih Juara 3 Kata Karate dan Juara 1 Kumite Karate di ajang Olimpiade Olahraga Nasional (O2SN) untuk tingkat kabupaten Bandung. Selamat atas pencapaian luar biasanya dan terima kasih atas prestasinya! Kami bangga!
+                                
+                                Be a Real Digital Talent!</b></br>
+                                
+                                
+                                    <br>@yptelkom
+                                        @telkom_schools
+                                            @ridwankamil
+                                                 @ruzhanul
+                                                    @wahyu_mijaya
+                                                         @arifrudiana
+                                                            @rosy.telkom</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item bg-light"style="border-radius: 30px 30px 30px 30px;">
+                        <div class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
+                            <div id="carousel7" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active" data-bs-interval="10000">
+                                    <img src="img/basket.jpeg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="img/tedo4.jpeg" class="d-block w-100" alt="...">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel7" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel7" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-center pt-2 px-1"style="border-radius: 30px 30px 30px 30px;">
+                                <a class="btn my-button align-self-start-sm-square btn-danger mx-1" style="border-radius: 30px 30px 30px 30px;"href="https://www.instagram.com/p/CslC21mBVLx/?img_index=1"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Congratulations!!👏🏻💯</h5>
+                            <small><br><b>Sobat Prima! Berikut ini merupakan siswa SMK Telkom Bandung yang berhasil meraih Juara 2 Lomba Basket di ajang Olimpiade Olahraga Nasional (O2SN) untuk tingkat kabupaten Bandung. Selamat atas pencapaian luar biasanya dan terima kasih atas prestasinya! Kami bangga!
+
+                                Be a Real Digital Talent!!</br></b>
+
+                                <br>#smktelkombandung 
+                                #smktelbdg 
+                                #telkomschools 
+                                #smktelkom
+                                 #ppdb
+                                  #smkno1bandung 
+                                  #infobandung 
+                                  #infodayeuhkolot 
+                                  #pelatihan 
+                                   </small>
                         </div>
                     </div>
                 </div>
