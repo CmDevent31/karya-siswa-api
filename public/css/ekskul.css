@@ -41,9 +41,8 @@ body {
     background-color: transparent;
     border: none;
     text-align: center;
-  }
-
-  button {
+}
+button {
 width: 140px;
 border: 0;
 padding: 12px 10px;
@@ -59,6 +58,7 @@ button:hover {
 background: linear-gradient(to right, #ff3527, #fb4283);
 transform: scale(1.05);
 }
+
 /* Tombol Prev dan Next pada Carousel */
 .carousel-control-prev,
 .carousel-control-next {
