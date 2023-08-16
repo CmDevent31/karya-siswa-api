@@ -3,6 +3,7 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\EkskulController;
 use App\Http\Controllers\ArticleController;
 use App\Http\Controllers\CommentController;
 use App\Http\Controllers\ProductController;
@@ -54,3 +55,6 @@ Route::put('/deleteproduk/{id}',[ProductController::class,'destroy']);
 Route::post('/membuatstock',[ProductStockController::class,'add']);
 Route::get('/stocklist',[ProductStockController::class,'index']);
 Route::post('/updatestock/{id}',[ProductStockController::class,'update']);
+
+Route::post('/addekskul',[EkskulController::class,'store']);
+Route::get('/listekskul',[EkskulController::class,'list']);
