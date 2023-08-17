@@ -34,7 +34,7 @@
 <body>
     <!-- Spinner Start -->
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border text-danger" style="width: 3rem; height: 3rem;" role="status">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
             <span class="sr-only">Loading...</span>
         </div>
     </div>
@@ -57,13 +57,13 @@
                     <div class="dropdown-menu fade-down m-9">
                         <a href="/Pembelajaran" class="dropdown-item">Pembelajaran</a>
                         <a href="/Ekskul" class="dropdown-item">Ekskul</a>
-                        <a href="/GaleriSekolah" class="dropdown-item">GaleriSekolah</a>
+                        <a href="/GaleriSekolah" class="dropdown-item bg-danger text-white active">GaleriSekolah</a>
                         <a href="/Testimoni" class="dropdown-item">Testimoni</a>
                     </div>
                 </div>
                 <a href="/Prestasi" class="nav-item nav-link">Prestasi</a>
                 <a href="/Guru" class="nav-item nav-link">GuruKami</a>
-                <a href="/TentangKami" class="nav-item nav-link active">TentangKami</a>
+                <a href="/TentangKami" class="nav-item nav-link">TentangKami</a>
                 <a href="/Login" class="nav-item nav-link">Login</a>
                 <div class="nav-item dropdown text-danger">
                     <a href="#" class="nav-link dropdown-toggle px-4 px-lg-2 nav-item nav-link " data-bs-toggle="dropdown"></a>
@@ -79,16 +79,15 @@
 
 
     <!-- Header Start -->
-    <div class="container-fluid bg-danger py-5 mb-5 page-header">
+    <div class="container-fluid bg-primary py-5 mb-5 page-header">
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-10 text-center">
-                    
-                    <h1 class="display-3 text-white animated slideInDown">TentangKami</h1>
+                    <h1 class="display-3 text-white animated slideInDown">GaleriSekolah</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center">
                             <li class="breadcrumb-item"><a class="text-white" href="/Home">Home</a></li>
-                            <li class="breadcrumb-item text-white active" aria-current="page">TentangKami</li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">GaleriSekolah</li>
                         </ol>
                     </nav>
                 </div>
@@ -97,49 +96,156 @@
     </div>
     <!-- Header End -->
 
-    <!-- About Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
-                    <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="https://www.arenalaptop.com/wp-content/uploads/2018/12/Laptop-Untuk-Programmer.jpg" style="border-radius: 100px 100px 100px 100px;"alt="" style="object-fit: cover;">
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <h6 class="section-title bg-white text-start text-danger pe-3">TentangKami</h6>
-                    <h1 class="mb-4">Welcome to KaryaSiswa</h1>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                    <div class="row gy-2 gx-4 mb-4">
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-danger me-2"></i>Skilled Instructors</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-danger me-2"></i>Online Classes</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-danger me-2"></i>International Certificate</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-danger me-2"></i>Skilled Instructors</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-danger me-2"></i>Online Classes</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-danger me-2"></i>International Certificate</p>
-                        </div>
-                    </div>
-                    <a class="btn my-button align-self-start py-md-3 px-md-5 me-3 animated slideInLeft border-end"style="border-radius: 30px 30px 30px 30px;">Read More</a>
-                </div>
+    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+        <h6 class="section-title bg-white text-center text-danger px-3">FaqsHelp</h6>
+        <h1 class="mb-5">Pengajuan</h1>
+    </div>
+    <section>
+        <div class="faq">
+            <h3 class="text-center">Question 1</h3>
+            <p class="text-center">Answer to question 1...</p>
+        </div>
+       
+
+        <div id="question-modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                
+                <h2 class="text-center">Your Question</h2>
+                <label class="text-center"for="text-input">Masukkan Pengajuan</label>
+    <input type="text" id="text-input" name="letter" maxlength="100000"><br>
+                <button id="submit-question" style="border-radius: 30px 30px 30px 30px;">Submit</button>
             </div>
         </div>
-    </div>
-    <!-- About End -->
+        <div class="faq">
+            <h3 class="text-center">Question 2</h3>
+            <p class="text-center">Answer to question 2...</p>
+        </div>
+        <a align="center"class="btn my-button align-self-start px-3 " id="question-button" style="border-radius: 30px 30px 30px 30px;">Pengajuan</a>
+        <!-- Add more FAQs here -->
+    </section>
 
 
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const textInput = document.getElementById("text-input");
         
+            textInput.addEventListener("input", (event) => {
+                const enteredLetter = event.target.value;
+                console.log("Entered letter:", enteredLetter);
+            });
+        });
+        
+        document.addEventListener("DOMContentLoaded", () => {
+            const questionButton = document.getElementById("question-button");
+            const modal = document.getElementById("question-modal");
+            const closeButton = document.getElementsByClassName("close")[0];
+        
+            questionButton.addEventListener("click", () => {
+                modal.style.display = "block";
+            });
+        
+            closeButton.addEventListener("click", () => {
+                modal.style.display = "none";
+            });
+        
+            window.addEventListener("click", (event) => {
+                if (event.target === modal) {
+                    modal.style.display = "none";
+                }
+            });
+        });
+            </script>
+            <style>
+                body {
+                    margin: 0;
+                    padding: 0;
+                    align-items: center;
+                    justify-content: center;
+                    text-align: center;
+                }
+                
+                header {
+                    background-color: #333;
+                    color: white;
+                    text-align: center;
+                    padding: 1rem;
+                }
+                
+                button {
+                    padding: 0.5rem 1rem;
+                    background-color: #ff0000;
+                    color: white;
+                    border: none;
+                    cursor: pointer;
+                }
+                .my-button {
+                    display: inline-block ;
+                    background-color: #ff0000;
+                    border: 2px solid #ff0000;
+                    padding: 8px 24px ;
+                    color: #ffffff;
+                    font-weight: 500;
+                    box-shadow: 0 0 0 #ffffff;
+                    transition: all .2s !important;
+                }
+                .my-button:hover {
+                    transform: right(4px, 4px) !important;
+                    color: #ffffff !important;
+                    box-shadow: 0px 0px 0 #FD2E2E !important;
+                    transform: scale(1.05);
+                
+                    .rounded-xl {
+                        border-radius: 16px;
+                    }
+                }
+                .modal {
+                    display: none;
+                    position: fixed;
+                    z-index: 1;
+                    left: 0;
+                    top: 0;
+                    width: 100%;
+                    height: 100%;
+                    background-color: rgba(0,0,0,0.5);
+                }
+                
+                .modal-content {
+                    background-color: white;
+                    margin: 15% auto;
+                    padding: 20px;
+                    border: 1px solid #888;
+                    width: 80%;
+                    position: relative;
+                }
+                
+                .close {
+                    color: #aaa;
+                    float: right;
+                    font-size: 28px;
+                    font-weight: bold;
+                    cursor: pointer;
+                }
+                
+                .close:hover {
+                    color: black;
+                    text-decoration: none;
+                    cursor: pointer;
+                }
+            section {
+                max-width: 800px;
+                margin: 2rem auto;
+                padding: 0 1rem;
+            }
+            
+            .faq {
+                margin-bottom: 1rem;
+                border: 1px solid #ccc;
+                padding: 1rem;
+                background-color: #f9f9f9;
+            }
+            </style>
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s" style="border-radius: 30px 30px 0 0;">
