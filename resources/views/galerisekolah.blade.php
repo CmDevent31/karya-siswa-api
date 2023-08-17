@@ -96,7 +96,10 @@
     </div>
     <!-- Header End -->
 
-
+    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+        <h6 class="section-title bg-white text-center text-danger px-3">Galeri</h6>
+        <h1 class="mb-5">Galeri Sekolah</h1>
+    </div>
     
 
     <!-- Footer Start -->
@@ -105,10 +108,8 @@
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-3">Quick Link</h4>
-                    <a class="btn btn-link" href="">About Us</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
-                    <a class="btn btn-link" href="">Privacy Policy</a>
-                    <a class="btn btn-link" href="">Terms & Condition</a>
+                    <a class="btn btn-link" href="/PrivacyPolicy">Privacy Policy</a>
+                    <a class="btn btn-link" href="/TermsCondition">Terms & Condition</a>
                     <a class="btn btn-link" href="">FAQs & Help</a>
                 </div>
                 <div class="col-lg-3 col-md-6">

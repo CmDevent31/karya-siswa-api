@@ -153,47 +153,31 @@
     <!-- Service Start -->
     <div class="container-xxl py-5"class= "text-secondary">
         <div class="container">
-            <div class="row g-4">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-danger px-3">Produktivitas</h6>
-                <h1 class="mb-5">Berbagai Macam Pembelajaran</h1>
-            </div>
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s"style="border-radius: 30px 30px 30px 30px;">
-                    <div class="service-item text-center pt-3 "style="border-radius: 30px 30px 30px 30px;">
-                        <div class="p-4">
-                            <i class="fa fa-3x fa-graduation-cap text-dark mb-4"></i>
-                            <h5 class="mb-3">Skilled Instructors</h5>
-                            <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
-                        </div>
-                    </div>
+            <div class="row g-4 justify-content-center">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="section-title bg-white text-center text-danger px-3">Produktivitas</h6>
+                    <h1 class="mb-5">Berbagai Macam Pembelajaran</h1>
                 </div>
+                
                 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s"style="border-radius: 30px 30px 30px 30px;">
                     <div class="service-item text-center pt-3"style="border-radius: 30px 30px 30px 30px;">
                         <div class="p-4">
-                            <i class="fa fa-3x fa-globe text-dark mb-4"></i>
-                            <h5 class="mb-3">Online Classes</h5>
-                            <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                            <i class="fa fa-3x fa-laptop text-dark mb-4"></i>
+                            <h5 class="mb-3">Produktif</h5>
+                            <p >Produktif adalah pembelajaran kejuruan yang merupakan kemampuan khusus yang diberikan kepada siswa sesuai dengan program keahlian yang dipilihnya.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s"style="border-radius: 30px 30px 30px 30px;">
                     <div class="service-item text-center pt-3"style="border-radius: 30px 30px 30px 30px;">
                         <div class="p-4">
-                            <i class="fa fa-3x fa-home text-dark mb-4"></i>
-                            <h5 class="mb-3">Home Projects</h5>
-                            <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                            <i class="fa fa-3x fa-book text-dark mb-4"></i>
+                            <h5 class="mb-3">Normatif & Adaptif</h5>
+                            <p>Pelajaran normatif dan adaptif merupakan pelajaran non kejuruan yang diberikan kepada siswa sebagai penunjang kemampuan produktif.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s"style="border-radius: 30px 30px 30px 30px;">
-                    <div class="service-item text-center pt-3"style="border-radius: 30px 30px 30px 30px;">
-                        <div class="p-4">
-                            <i class="fa fa-3x fa-book-open text-dark mb-4"></i>
-                            <h5 class="mb-3">Book Library</h5>
-                            <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </div>
@@ -205,10 +189,8 @@
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-3">Quick Link</h4>
-                    <a class="btn btn-link" href="">About Us</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
-                    <a class="btn btn-link" href="">Privacy Policy</a>
-                    <a class="btn btn-link" href="">Terms & Condition</a>
+                    <a class="btn btn-link" href="/PrivacyPolicy">Privacy Policy</a>
+                    <a class="btn btn-link" href="/TermsCondition">Terms & Condition</a>
                     <a class="btn btn-link" href="">FAQs & Help</a>
                 </div>
                 <div class="col-lg-3 col-md-6">

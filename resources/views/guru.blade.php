@@ -110,49 +110,49 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="course-item bg-light"style="border-radius: 30px 30px 30px 30px;">
                         <div class="text-center position-relative overflow-hidden"style="border-radius: 30px 30px 30px 30px;">  
-                            <img class="img-fluid" width="300px" height="0"src="https://smktelkom-bdg.sch.id/wp-content/uploads/2019/10/Ryan-N-300x300.png" alt=""style="border-radius: 30px 30px 30px 30px;">
+                            <img class="img-fluid" width="300px" height="0"src="https://smktelkom-bdg.sch.id/wp-content/uploads/2023/05/RYAN-NOVERIAND-RAWHAN-S.T-300x300.jpg" alt=""style="border-radius: 30px 30px 30px 30px;">
                             
                             <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
-                                <a href="#" class="flex-shrink-0 btn btn-sm btn-danger px-3" style="border-radius: 30px 30px 30px 30px;">Read More</a>
+                                <a href="#" class="btn my-button align-self-start px-3" style="border-radius: 30px 30px 30px 30px;">Read More</a>
                             </div>
                         </div>
                         <div class="text-center p-4 pb-0" >
                             <h5 class="mb-4"></h5>
                         </div>
                         <div class="d-flex border-top">
-                            <small class="flex-fill text-center py-2"><i class="fa fa-user-tie text-danger me-2"></i>Ryan Noveriand Rawhan</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user-tie text-danger me-2"></i>Ryan Noveriand Rawhan. S.T</small>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="course-item bg-light"style="border-radius: 30px 30px 30px 30px;">
                         <div class="text-center position-relative overflow-hidden"class="scaled"style="border-radius: 30px 30px 30px 30px;">
-                            <img class="img-fluid" width="225" height="0"src="https://smktelkom-bdg.sch.id/wp-content/uploads/2020/11/Pak-Fajar-225x300.jpg" width="207" height="200" alt=""style="border-radius: 30px 30px 30px 30px;">
+                            <img class="img-fluid" width="300px" height="0"src="https://smktelkom-bdg.sch.id/wp-content/uploads/2023/05/FAJAR-NUGRAHA-M.T-300x300.jpg" width="207" height="200" alt=""style="border-radius: 30px 30px 30px 30px;">
                             <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
-                                <a href="#" class="flex-shrink-0 btn btn-sm btn-danger px-3 " style="border-radius: 30px 30px 30px 30px;">Read More</a>
+                                <a href="#" class="btn my-button align-self-start px-3" style="border-radius: 30px 30px 30px 30px;">Read More</a>
                             </div>
                         </div>
                         <div class="text-center p-4 pb-0">
                             <h5 class="mb-4"></h5>
                         </div>
                         <div class="d-flex border-top">
-                            <small class="flex-fill text-center py-2"><i class="fa fa-user-tie text-danger me-2"></i>Rosyanto, M.Pd.</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user-tie text-danger me-2"></i>Fajar Nugraha. M.T</small>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="course-item bg-light"style="border-radius: 30px 30px 30px 30px;">
                         <div class="text-center position-relative overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
-                            <img class="img-fluid" src="https://smktelkom-bdg.sch.id/wp-content/uploads/2019/08/Jaka_Pr-300x300.png" style="border-radius: 30px 30px 30px 30px;"alt="">
+                            <img class="img-fluid" src="https://smktelkom-bdg.sch.id/wp-content/uploads/2023/05/EGI-NUGRAHA-S.Pd_-300x300.jpg" style="border-radius: 30px 30px 30px 30px;"alt="">
                             <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
-                                <a href="#" class="flex-shrink-0 btn btn-sm btn-danger px-3" style="border-radius: 30px 30px 30px 30px;">Read More</a>
+                                <a href="#" class="btn my-button align-self-start px-3" style="border-radius: 30px 30px 30px 30px;">Read More</a>
                             </div>
                         </div>
                         <div class="text-center p-4 pb-0">
                             <h5 class="mb-4"></h5>
                         </div>
                         <div class="d-flex border-top">
-                            <small class="flex-fill text-center py-2"><i class="fa fa-user-tie text-danger me-2"></i>Jaka Prabawa</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user-tie text-danger me-2"></i>Egi Nugraha. S.Pd</small>
                         </div>
                     </div>
                 </div>
@@ -161,7 +161,7 @@
                         <div class="text-center position-relative overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
                             <img class="img-fluid" src="https://smktelkom-bdg.sch.id/wp-content/uploads/2020/11/Pak-Jaka-G-225x300.jpg" style="border-radius: 30px 30px 30px 30px;"alt="">
                             <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
-                                <a href="#" class="flex-shrink-0 btn btn-sm btn-danger px-3" style="border-radius: 30px 30px 30px 30px;">Read More</a>
+                                <a href="#" class="btn my-button align-self-start px-3" style="border-radius: 30px 30px 30px 30px;">Read More</a>
                             </div>
                         </div>
                         <div class="text-center p-4 pb-0">
@@ -177,7 +177,7 @@
                         <div class="text-center position-relative overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
                             <img class="img-fluid" src="https://smktelkom-bdg.sch.id/wp-content/uploads/2020/11/Pak-Wahyu-Nur-225x300.jpg" style="border-radius: 30px 30px 30px 30px;"alt="">
                             <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
-                                <a href="#" class="flex-shrink-0 btn btn-sm btn-danger px-3" style="border-radius: 30px 30px 30px 30px;">Read More</a>
+                                <a href="#" class="btn my-button align-self-start px-3" style="border-radius: 30px 30px 30px 30px;">Read More</a>
                             </div>
                         </div>
                         <div class="text-center p-4 pb-0">
@@ -193,7 +193,7 @@
                         <div class="text-center position-relative overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
                             <img class="img-fluid" src="https://smktelkom-bdg.sch.id/wp-content/uploads/2020/11/Pak-Harnan-225x300.jpg" style="border-radius: 30px 30px 30px 30px;"alt="">
                             <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
-                                <a href="#" class="flex-shrink-0 btn btn-sm btn-danger px-3" style="border-radius: 30px 30px 30px 30px;">Read More</a>
+                                <a href="#" class="btn my-button align-self-start px-3" style="border-radius: 30px 30px 30px 30px;">Read More</a>
                             </div>
                         </div>
                         <div class="text-center p-4 pb-0">
@@ -209,7 +209,7 @@
                         <div class="text-center position-relative overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
                             <img class="img-fluid" src="https://smktelkom-bdg.sch.id/wp-content/uploads/2020/11/Bu-Mila-225x300.jpg" style="border-radius: 30px 30px 30px 30px;"alt="">
                             <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
-                                <a href="#" class="flex-shrink-0 btn btn-sm btn-danger px-3" style="border-radius: 30px 30px 30px 30px;">Read More</a>
+                                <a href="#" class="btn my-button align-self-start px-3" style="border-radius: 30px 30px 30px 30px;">Read More</a>
                             </div>
                         </div>
                         <div class="text-center p-4 pb-0">
@@ -223,84 +223,103 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="course-item bg-light"style="border-radius: 30px 30px 30px 30px;">
                         <div class="text-center position-relative overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
-                            <img class="img-fluid" src="https://smktelkom-bdg.sch.id/wp-content/uploads/2020/11/Pak-Harnan-225x300.jpg" style="border-radius: 30px 30px 30px 30px;"alt="">
+                            <img class="img-fluid" src="https://smktelkom-bdg.sch.id/wp-content/uploads/2020/11/Bu-Fitri-1-225x300.jpg" style="border-radius: 30px 30px 30px 30px;"alt="">
                             <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
-                                <a href="#" class="flex-shrink-0 btn btn-sm btn-danger px-3" style="border-radius: 30px 30px 30px 30px;">Read More</a>
+                                <a href="#" class="btn my-button align-self-start px-3" style="border-radius: 30px 30px 30px 30px;">Read More</a>
                             </div>
                         </div>
                         <div class="text-center p-4 pb-0">
                             <h5 class="mb-4"></h5>
                         </div>
                         <div class="d-flex border-top">
-                            <small class="flex-fill text-center py-2"><i class="fa fa-user-tie text-danger me-2"></i>Harnanditya Mahendra</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user-tie text-danger me-2"></i>Fitri Yanti</small>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="course-item bg-light"style="border-radius: 30px 30px 30px 30px;">
                         <div class="text-center position-relative overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
-                            <img class="img-fluid" src="https://smktelkom-bdg.sch.id/wp-content/uploads/2020/11/Pak-Harnan-225x300.jpg" style="border-radius: 30px 30px 30px 30px;"alt="">
+                            <img class="img-fluid" src="https://smktelkom-bdg.sch.id/wp-content/uploads/2020/11/Bu-Ane-1-225x300.jpg" style="border-radius: 30px 30px 30px 30px;"alt="">
                             <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
-                                <a href="#" class="flex-shrink-0 btn btn-sm btn-danger px-3" style="border-radius: 30px 30px 30px 30px;">Read More</a>
+                                <a href="#" class="btn my-button align-self-start px-3" style="border-radius: 30px 30px 30px 30px;">Read More</a>
                             </div>
                         </div>
                         <div class="text-center p-4 pb-0">
                             <h5 class="mb-4"></h5>
                         </div>
                         <div class="d-flex border-top">
-                            <small class="flex-fill text-center py-2"><i class="fa fa-user-tie text-danger me-2"></i>Harnanditya Mahendra</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user-tie text-danger me-2"></i>Ane Riyana</small>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="course-item bg-light"style="border-radius: 30px 30px 30px 30px;">
                         <div class="text-center position-relative overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
-                            <img class="img-fluid" src="https://smktelkom-bdg.sch.id/wp-content/uploads/2020/11/Pak-Harnan-225x300.jpg" style="border-radius: 30px 30px 30px 30px;"alt="">
+                            <img class="img-fluid" src="https://smktelkom-bdg.sch.id/wp-content/uploads/2020/11/Pak-Pipin-225x300.jpg" style="border-radius: 30px 30px 30px 30px;"alt="">
                             <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
-                                <a href="#" class="flex-shrink-0 btn btn-sm btn-danger px-3" style="border-radius: 30px 30px 30px 30px;">Read More</a>
+                                <a href="#" class="btn my-button align-self-start px-3" style="border-radius: 30px 30px 30px 30px;">Read More</a>
                             </div>
                         </div>
                         <div class="text-center p-4 pb-0">
                             <h5 class="mb-4"></h5>
                         </div>
                         <div class="d-flex border-top">
-                            <small class="flex-fill text-center py-2"><i class="fa fa-user-tie text-danger me-2"></i>Harnanditya Mahendra</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user-tie text-danger me-2"></i>Muhammad Thoifur</small>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="course-item bg-light"style="border-radius: 30px 30px 30px 30px;">
                         <div class="text-center position-relative overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
-                            <img class="img-fluid" src="https://smktelkom-bdg.sch.id/wp-content/uploads/2020/11/Pak-Harnan-225x300.jpg" style="border-radius: 30px 30px 30px 30px;"alt="">
+                            <img class="img-fluid" src="https://smktelkom-bdg.sch.id/wp-content/uploads/2020/09/260-300x300.jpg" style="border-radius: 30px 30px 30px 30px;"alt="">
                             <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
-                                <a href="#" class="flex-shrink-0 btn btn-sm btn-danger px-3" style="border-radius: 30px 30px 30px 30px;">Read More</a>
+                                <a href="#" class="btn my-button align-self-start px-3" style="border-radius: 30px 30px 30px 30px;">Read More</a>
                             </div>
                         </div>
                         <div class="text-center p-4 pb-0">
                             <h5 class="mb-4"></h5>
                         </div>
                         <div class="d-flex border-top">
-                            <small class="flex-fill text-center py-2"><i class="fa fa-user-tie text-danger me-2"></i>Harnanditya Mahendra</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user-tie text-danger me-2"></i>Amorsa Erlosima Prianda</small>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="course-item bg-light"style="border-radius: 30px 30px 30px 30px;">
                         <div class="text-center position-relative overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
-                            <img class="img-fluid" src="https://smktelkom-bdg.sch.id/wp-content/uploads/2020/11/Pak-Harnan-225x300.jpg" style="border-radius: 30px 30px 30px 30px;"alt="">
+                            <img class="img-fluid" src="https://smktelkom-bdg.sch.id/wp-content/uploads/2020/11/Pak-Darman-225x300.jpg" style="border-radius: 30px 30px 30px 30px;"alt="">
                             <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
-                                <a href="#" class="flex-shrink-0 btn btn-sm btn-danger px-3" style="border-radius: 30px 30px 30px 30px;">Read More</a>
+                                <a href="#" class="btn my-button align-self-start px-3" style="border-radius: 30px 30px 30px 30px;">Read More</a>
                             </div>
                         </div>
                         <div class="text-center p-4 pb-0">
                             <h5 class="mb-4"></h5>
                         </div>
                         <div class="d-flex border-top">
-                            <small class="flex-fill text-center py-2"><i class="fa fa-user-tie text-danger me-2"></i>Harnanditya Mahendra</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user-tie text-danger me-2"></i>Maidarman</small>
                         </div>
                     </div>
                 </div>
-
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="course-item bg-light"style="border-radius: 30px 30px 30px 30px;">
+                        <div class="text-center position-relative overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
+                            <img class="img-fluid" src="https://smktelkom-bdg.sch.id/wp-content/uploads/2020/11/Pak-Arariko-1.png" style="border-radius: 30px 30px 30px 30px;"alt="">
+                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                                <a href="#" class="btn my-button align-self-start px-3" style="border-radius: 30px 30px 30px 30px;">Read More</a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4 pb-0">
+                            <h5 class="mb-4"></h5>
+                        </div>
+                        <div class="d-flex border-top">
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user-tie text-danger me-2"></i>Arariko</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h1 class="mb-5">Animasi</h1>
+                </div>
+                
             </div>
         </div>
     </div>
@@ -316,10 +335,8 @@
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-3">Quick Link</h4>
-                    <a class="btn btn-link" href="">About Us</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
-                    <a class="btn btn-link" href="">Privacy Policy</a>
-                    <a class="btn btn-link" href="">Terms & Condition</a>
+                    <a class="btn btn-link" href="/PrivacyPolicy">Privacy Policy</a>
+                    <a class="btn btn-link" href="/TermsCondition">Terms & Condition</a>
                     <a class="btn btn-link" href="">FAQs & Help</a>
                 </div>
                 <div class="col-lg-3 col-md-6">

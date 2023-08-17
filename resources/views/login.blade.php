@@ -532,11 +532,11 @@
     padding-right: 0;
     border-right: none;
 }
-                    *{
-                        margin: 0;
-                        padding: 0;
-                        outline: 0;
-                        font-family: 'Open Sans', sans-serif;}
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}                 
 
 body{
     height: 100vh;
