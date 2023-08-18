@@ -62,12 +62,12 @@
             <div class="navbar-nav ms-auto p-4 p-lg-0"> 
                 <a href="/Home" class="nav-item nav-link">Home</a>
                 <div class="nav-item dropdown text-danger">
-                    <a href="/Home" class="nav-link dropdown-toggle px-4 px-lg-2 nav-item nav-link " data-bs-toggle="dropdown">Kegiatan</a>
+                    <a href="/Home" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Kegiatan</a>
                     <div class="dropdown-menu fade-down m-9">
                         <a href="/Pembelajaran" class="dropdown-item">Pembelajaran</a>
                         <a href="/Ekskul" class="dropdown-item">Ekskul</a>
                         <a href="/GaleriSekolah" class="dropdown-item">GaleriSekolah</a>
-                        <a href="/Testimoni" class="dropdown-item">Testimoni</a>
+                        <a href="/Quotes" class="dropdown-item">Quotes</a>
                     </div>
                 </div>
                 <a href="/Prestasi" class="nav-item nav-link">Prestasi</a>
@@ -75,7 +75,7 @@
                 <a href="/TentangKami" class="nav-item nav-link">TentangKami</a>
                 <a href="/Login" class="nav-item nav-link">Login</a>
                 <div class="nav-item dropdown text-danger">
-                    <a href="#" class="nav-link dropdown-toggle px-4 px-lg-2 nav-item nav-link " data-bs-toggle="dropdown"></a>
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"></a>
                     <div class="dropdown-menu fade-down m-9">
                         <a href="/TimKami" class="dropdown-item">TimKami</a>
                         <a href="/PageNotFound" class="dropdown-item">PageNotFound</a>
@@ -109,7 +109,6 @@
     margin: 0;
     padding: 0;
     outline: 0;
-    font-family: 'Open Sans', sans-serif;
 }
 body{
     height: 100vh;
@@ -132,7 +131,6 @@ h1 {
 
 a {
   color: rgb(255, 0, 0);
-  font-family: 'Open Sans', sans-serif;
 }
 .container{
     position: absolute;
@@ -144,7 +142,6 @@ a {
     
     background: transparent;
       border: 2px solid rgba(255, 255, 255, .2);
-      backdrop-filter: blur(1000px);
       color:#000000;
       border-radius: 20px;
       border: rounded;

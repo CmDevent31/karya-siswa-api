@@ -58,12 +58,12 @@
             <div class="navbar-nav ms-auto p-4 p-lg-0"> 
                 <a href="/Home" class="nav-item nav-link active">Home</a>
                 <div class="nav-item dropdown text-danger">
-                    <a href="#" class="nav-link dropdown-toggle px-4 px-lg-2 nav-item nav-link" data-bs-toggle="dropdown">Kegiatan</a>
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Kegiatan</a>
                     <div class="dropdown-menu fade-down m-9">
                         <a href="/Pembelajaran" class="dropdown-item">Pembelajaran</a>
                         <a href="/Ekskul" class="dropdown-item">Ekskul</a>
                         <a href="/GaleriSekolah" class="dropdown-item">GaleriSekolah</a>
-                        <a href="/Testimoni" class="dropdown-item">Testimoni</a>
+                        <a href="/Quotes" class="dropdown-item">Quotes</a>
                     </div>
                 </div>
                 <a href="/Prestasi" class="nav-item nav-link">Prestasi</a>
@@ -71,7 +71,7 @@
                 <a href="/TentangKami" class="nav-item nav-link">TentangKami</a>
                 <a href="/Login" class="nav-item nav-link">Login</a>
                 <div class="nav-item dropdown text-danger">
-                    <a href="#" class="nav-link dropdown-toggle px-4 px-lg-2 nav-item nav-link " data-bs-toggle="dropdown"></a>
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"></a>
                     <div class="dropdown-menu fade-down m-9">
                         <a href="/TimKami" class="dropdown-item">TimKami</a>
                         <a href="/PageNotFound" class="dropdown-item">PageNotFound</a>
@@ -226,6 +226,7 @@
         <h6 class="section-title bg-white text-center text-danger px-3">Karya</h6>
         <h1 class="mb-5">Karya Siswa</h1>
     </div>
+    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
     <div class="col-lg-15">
         <div class="row row-cols-1 row-cols-md-3 g-4 mt-3 rounded">
             <div class="col">
@@ -290,42 +291,10 @@
           </div>      
         </div>
     </div>
+    </div>
   </div>
 
 
-
-    <!-- Service Start -->
-    <div class="container-xxl py-5"class= "text-secondary">
-        <div class="container">
-            <div class="row g-4 justify-content-center">
-                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <h6 class="section-title bg-white text-center text-danger px-3">Produktivitas</h6>
-                    <h1 class="mb-5">Berbagai Macam Pembelajaran</h1>
-                </div>
-                
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s"style="border-radius: 30px 30px 30px 30px;">
-                    <div class="service-item text-center pt-3"style="border-radius: 30px 30px 30px 30px;">
-                        <div class="p-4">
-                            <i class="fa fa-3x fa-laptop text-dark mb-4"></i>
-                            <h5 class="mb-3">Produktif</h5>
-                            <p >Produktif adalah pembelajaran kejuruan yang merupakan kemampuan khusus yang diberikan kepada siswa sesuai dengan program keahlian yang dipilihnya.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s"style="border-radius: 30px 30px 30px 30px;">
-                    <div class="service-item text-center pt-3"style="border-radius: 30px 30px 30px 30px;">
-                        <div class="p-4">
-                            <i class="fa fa-3x fa-book text-dark mb-4"></i>
-                            <h5 class="mb-3">Normatif & Adaptif</h5>
-                            <p>Pelajaran normatif dan adaptif merupakan pelajaran non kejuruan yang diberikan kepada siswa sebagai penunjang kemampuan produktif.</p>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-    </div>
-    <!-- Service End -->
 
     <!-- Courses Start -->
     <div class="container-xxl py-5" >
@@ -339,16 +308,12 @@
                     <div class="course-item bg-light"style="border-radius: 30px 30px 30px 30px;">
                         <div class="text-center position-relative overflow-hidden"style="border-radius: 30px 30px 30px 30px;">  
                             <img class="img-fluid" width="300px" height="0"src="https://smktelkom-bdg.sch.id/wp-content/uploads/2023/05/RYAN-NOVERIAND-RAWHAN-S.T-300x300.jpg" alt=""style="border-radius: 30px 30px 30px 30px;">
-                            
-                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
-                                <a href="#" class="btn my-button align-self-start px-3" style="border-radius: 30px 30px 30px 30px;">Read More</a>
-                            </div>
                         </div>
                         <div class="text-center p-4 pb-0" >
                             <h5 class="mb-4"></h5>
                         </div>
-                        <div class="d-flex border-top">
-                            <small class="flex-fill text-center py-2"><i class="fa fa-user-tie text-danger me-2"></i>Ryan Noveriand Rawhan. S.T</small>
+                        <div class="d-flex border-top"> 
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user-tie text-danger me-2"></i><b>Ryan Noveriand Rawhan. S.T</b></small>
                         </div>
                     </div>
                 </div>
@@ -356,15 +321,12 @@
                     <div class="course-item bg-light"style="border-radius: 30px 30px 30px 30px;">
                         <div class="text-center position-relative overflow-hidden"class="scaled"style="border-radius: 30px 30px 30px 30px;">
                             <img class="img-fluid" width="300px" height="0"src="https://smktelkom-bdg.sch.id/wp-content/uploads/2023/05/FAJAR-NUGRAHA-M.T-300x300.jpg" width="207" height="200" alt=""style="border-radius: 30px 30px 30px 30px;">
-                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
-                                <a href="#" class="btn my-button align-self-start px-3" style="border-radius: 30px 30px 30px 30px;">Read More</a>
-                            </div>
                         </div>
                         <div class="text-center p-4 pb-0">
                             <h5 class="mb-4"></h5>
                         </div>
                         <div class="d-flex border-top">
-                            <small class="flex-fill text-center py-2"><i class="fa fa-user-tie text-danger me-2"></i>Fajar Nugraha. M.T</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user-tie text-danger me-2"></i><b>Fajar Nugraha. M.T</b></small>
                         </div>
                     </div>
                 </div>
@@ -372,15 +334,12 @@
                     <div class="course-item bg-light"style="border-radius: 30px 30px 30px 30px;">
                         <div class="text-center position-relative overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
                             <img class="img-fluid" src="https://smktelkom-bdg.sch.id/wp-content/uploads/2023/05/EGI-NUGRAHA-S.Pd_-300x300.jpg" style="border-radius: 30px 30px 30px 30px;"alt="">
-                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
-                                <a href="#" class="btn my-button align-self-start px-3" style="border-radius: 30px 30px 30px 30px;">Read More</a>
-                            </div>
                         </div>
                         <div class="text-center p-4 pb-0">
                             <h5 class="mb-4"></h5>
                         </div>
                         <div class="d-flex border-top">
-                            <small class="flex-fill text-center py-2"><i class="fa fa-user-tie text-danger me-2"></i>Egi Nugraha. S.Pd</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user-tie text-danger me-2"></i><b>Egi Nugraha. S.Pd</b></small>
                         </div>
                     </div>
                 </div>
@@ -593,51 +552,6 @@
     </div>
     <!-- Team End -->
 
-
-    <!-- Testimonial Start -->
-    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container">
-            <div class="text-center">
-                <h6 class="section-title bg-white text-center text-danger px-3">Testimoni</h6>
-                <h1 class="mb-5">Our Students Say!</h1>
-            </div>
-            <div class="owl-carousel testimonial-carousel position-relative">
-                <div class="testimonial-item text-center">
-                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-1.jpg" style="width: 80px; height: 80px;">
-                    <h5 class="mb-0">Ahik</h5>
-                    <p>C.S</p>
-                    <div class="testimonial-text bg-light text-center p-4"  style="border-radius: 30px 30px 30px 30px;">
-                    <p class="mb-0">Medan tempur itu seru</p>
-                    </div>
-                </div>
-                <div class="testimonial-item text-center">
-                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-2.jpg" style="width: 80px; height: 80px;">
-                    <h5 class="mb-0">Client Name</h5>
-                    <p>Profession</p>
-                    <div class="testimonial-text bg-light text-center p-4"style="border-radius: 30px 30px 30px 30px;">
-                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
-                    </div>
-                </div>
-                <div class="testimonial-item text-center">
-                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-3.jpg" style="width: 80px; height: 80px;">
-                    <h5 class="mb-0">Client Name</h5>
-                    <p>Profession</p>
-                    <div class="testimonial-text bg-light text-center p-4"style="border-radius: 30px 30px 30px 30px;">
-                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
-                    </div>
-                </div>
-                <div class="testimonial-item text-center">
-                    <img class="border rounded-circle p-2 mx-auto mb-3" src="img/testimonial-4.jpg" style="width: 80px; height: 80px;">
-                    <h5 class="mb-0">Client Name</h5>
-                    <p>Profession</p>
-                    <div class="testimonial-text bg-light text-center p-4"style="border-radius: 30px 30px 30px 30px;">
-                    <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Testimonial End -->
         
 
     <!-- Modal -->
@@ -663,7 +577,7 @@
                                         <img src="asset/img/icon/ig.svg" class="sosmed-icon mx-1" alt="">
                                     </a>
                                 </div>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto amet nam at neque adipisci dicta sed sit laboriosam, quaerat incidunt maxime ea possimus enim explicabo? Amet alias soluta, provident nihil asperiores impedit dicta officia, voluptatibus distinctio eum delectus aperiam, deserunt minus quasi dolor voluptate autem maxime officiis nisi repellendus quos voluptas earum at beatae! Cupiditate quasi cum ratione pariatur excepturi tempore animi, ea vel in, dolore rerum fugiat iste? Assumenda, ratione inventore! Fuga, alias a nobis sapiente sint.</p>
+                                <p align="Justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto amet nam at neque adipisci dicta sed sit laboriosam, quaerat incidunt maxime ea possimus enim explicabo? Amet alias soluta, provident nihil asperiores impedit dicta officia, voluptatibus distinctio eum delectus aperiam, deserunt minus quasi dolor voluptate autem maxime officiis nisi repellendus quos voluptas earum at beatae! Cupiditate quasi cum ratione pariatur excepturi tempore animi, ea vel in, dolore rerum fugiat iste? Assumenda, ratione inventore! Fuga, alias a nobis sapiente sint.</p>
                             </div>
                         </div>
                     </div>
@@ -680,7 +594,7 @@
                     <h4 class="text-white mb-3">Quick Link</h4>
                     <a class="btn btn-link" href="/PrivacyPolicy">Privacy Policy</a>
                     <a class="btn btn-link" href="/TermsCondition">Terms & Condition</a>
-                    <a class="btn btn-link" href="">FAQs & Help</a>
+                    <a class="btn btn-link" href="/FaqsHelp">FAQs & Help</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-3">Contact</h4>
@@ -688,10 +602,7 @@
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>0882-1899-0208</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>alwaysongaming10@gmail.com</p>
                     <div class="d-flex pt-2">
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a class="text-danger btn btn-outline-light btn-social" href="https://www.instagram.com/ghinanms/"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -710,7 +621,7 @@
                     <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
                     <div class="position-relative mx-auto" style="max-width: 400px;">
                         <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email"style="border-radius: 0 30px 30px 0;">
-                        <a href="#" class="btn my-button align-self-start py-2 position-absolute top-0 end-0 mt-2 me-2" style="border-radius: 0 30px 30px 0;">Sign Up</a>
+                        <button type="button" class="btn btn-danger py-2 position-absolute top-0 end-0 mt-2 me-2"style="border-radius: 0 30px 30px 0;">SignUp</button>
                     </div>
                 </div>
             </div>
@@ -727,9 +638,7 @@
                     <div class="col-md-6 text-center text-md-end">
                         <div class="footer-menu">
                             <a href="/Home">Home</a>
-                            <a href="">Cookies</a>
-                            <a href="">Help</a>
-                            <a href="">FQAs</a>
+                            <a href="/FaqsHelp">FQAs</a>
                         </div>
                     </div>
                 </div>
@@ -737,6 +646,8 @@
         </div>
     </div>
     <!-- Footer End -->
+
+    
 
 
     <!-- Back to Top -->
