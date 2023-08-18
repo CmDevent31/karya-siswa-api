@@ -6,6 +6,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\EkskulController;
 use App\Http\Controllers\KontakController;
+use App\Http\Controllers\QuotesController;
 use App\Http\Controllers\TimKamiController;
 use App\Http\Controllers\FAQSHelpController;
 use App\Http\Controllers\PrestasiController;
@@ -39,7 +40,6 @@ Route::get('/TentangKami', [TentangKamiController::class, 'index']);
 Route::get('/Pembelajaran', [PembelajaranController::class, 'index']);
 Route::get('/TimKami', [TimKamiController::class, 'index']);
 Route::get('/Kontak', [KontakController::class, 'index']);
-Route::get('/Testimoni', [TestimoniController::class, 'index']);
 Route::get('/PageNotFound', [PageNotFoundController::class, 'index']);
 Route::get('/Login', [LoginController ::class, 'index']);
 Route::get('/Registrasi', [RegistrasiController ::class, 'index']);
@@ -50,6 +50,8 @@ Route::get('/KaryaSiswa', [KaryaSiswaController ::class, 'index']);
 Route::get('/PrivacyPolicy', [PrivacyPolicyController ::class, 'index']);
 Route::get('/TermsCondition', [TermsConditionController ::class, 'index']);
 Route::get('/FaqsHelp', [FAQSHelpController ::class, 'index']);
+Route::get('/Quotes', [QuotesController ::class, 'index']);
+
 
 Route::get('/Ekskul', [EkskulController::class, 'index']);
 Route::get('/PageNotFound', [PageNotFoundController::class, 'index']);
