@@ -128,16 +128,20 @@
         <h1 class="mb-5">Kategori</h1>
     </div>
     
+
     <div class="row g-4 justify-content-center" id="TentangKami">
-        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-            <a href="#TentangKami"class="btn my-button align-self-start px-3" style="border-radius: 0 0 0 0;">#TentangKami</a>                
-            <a href="#Studi"class="btn my-button align-self-start " style="border-radius: 0 0 0 0;">#Studi</a>                
-            <a href="#Karya"class="btn my-button align-self-start px-3" style="border-radius: 0 0 0 0;">#Karya</a>                
-            <a href="#Guru"class="btn my-button align-self-start px-3" style="border-radius: 0 0 0 0;">#Guru</a>                
-            <a href="#Prestasi"class="btn my-button align-self-start px-3" style="border-radius: 0 0 0 0;">#Prestasi</a>                
+        <div class="text-center  col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="text-center position-relative overflow-hidden">  
+            <a href="#TentangKami"class="btn my-button align-self-start px-3" style="border-radius: 30px 30px 30px 30px;">#TentangKami</a>                
+            <a href="#Studi"class="btn my-button align-self-start " style="border-radius: 30px 30px 30px 30px;">#Studi</a>                
+            <a href="#Karya"class="btn my-button align-self-start px-3" style="border-radius: 30px 30px 30px 30px;">#Karya</a>                
+            <a href="#Guru"class="btn my-button align-self-start px-3" style="border-radius: 30px 30px 30px 30px;">#Guru</a>                
+            <a href="#Prestasi"class="btn my-button align-self-start px-3" style="border-radius: 30px 30px 30px 30px;">#Prestasi</a>                
+        </div>
+
         </div>
     </div>
-
+    
 
     <!-- About Start -->
     <div class="container-xxl py-5" >
