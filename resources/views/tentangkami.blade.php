@@ -131,7 +131,7 @@
                             <p class="mb-0"><i class="fa fa-arrow-right text-danger me-2"></i>International Certificate</p>
                         </div>
                     </div>
-                    <a class="btn my-button align-self-start py-md-3 px-md-5 me-3 animated slideInLeft border-end"style="border-radius: 30px 30px 30px 30px;">Read More</a>
+                    <a class="btn my-button align-self-start py-md-3 px-md-5 me-3 animated slideInLeft"style="border-radius: 30px 30px 30px 30px;">Read More</a>
                 </div>
             </div>
         </div>
