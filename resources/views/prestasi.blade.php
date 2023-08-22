@@ -107,7 +107,7 @@
                 <h6 class="section-title bg-white text-center text-danger px-3">Prestasi</h6>
                 <h1 class="mb-5">Siswa/siswi Yang Meraih Prestasi</h1>
             </div>
-            <div class="row g-4">
+            <div class="row g-4 row g-4 justify-content-center">
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item bg-light"style="border-radius: 30px 30px 30px 30px;">
                         <div class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
@@ -1426,23 +1426,20 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item bg-light"style="border-radius: 30px 30px 30px 30px;">
                         <div class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
-                            <div id="carousel27" class="carousel slide" data-bs-ride="carousel">
+                            <div id="carousel28" class="carousel slide" data-bs-ride="carousel">
                                 <div class="carousel-inner">
                                   <div class="carousel-item active" data-bs-interval="10000">
-                                    <img src="img/web3.jpg" class="d-block w-100" alt="...">
+                                    <img src="img/sma.jpg" class="d-block w-100" alt="...">
                                   </div>
                                   <div class="carousel-item" data-bs-interval="2000">
-                                    <img src="img/web4.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                  <div class="carousel-item" data-bs-interval="2000">
-                                    <img src="img/web4.jpg" class="d-block w-100" alt="...">
+                                    <img src="img/sma1.jpg" class="d-block w-100" alt="...">
                                   </div>
                                 </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel27" data-bs-slide="prev">
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel28" data-bs-slide="prev">
                                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                   <span class="visually-hidden">Previous</span>
                                 </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carousel27" data-bs-slide="next">
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel28" data-bs-slide="next">
                                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                   <span class="visually-hidden">Next</span>
                                 </button>
@@ -1450,21 +1447,410 @@
                         </div>
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
                             <div class="bg-light d-flex justify-content-cent    er pt-2 px-1"style="border-radius: 30px 30px 30px 30px;">
-                                <a class="btn my-button align-self-start-sm-square btn-danger mx-1" style="border-radius: 30px 30px 30px 30px;"href="https://www.instagram.com/p/CV2CLRgsbec/"><i class="fab fa-instagram"></i></a>
+                                <a class="btn my-button align-self-start-sm-square btn-danger mx-1" style="border-radius: 30px 30px 30px 30px;"href="https://www.instagram.com/p/CVe64PIhJvK"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                         <div class="text-center p-4">
                             <h5 class="mb-0">𝐒𝐄𝐋𝐀𝐌𝐀𝐓 𝐃𝐀𝐍 𝐒𝐔𝐊𝐒𝐄𝐒
 
                             </h5>
-                            <small><br><b>Sobat Prima! Zidan Muhamad Daffa, siswa Kelas XII SMK Telkom Bandung mendapatkan penghargaan sebagai Juara ke-1 Lomba Kategori Web Design Tingkat Nasional, dalam Kegiatan Infinity 2021 bu UKM Progress STIKOMBALI.
-                                Selamat atas penghargaannya ✨
+                            <small><br><br><b>Sobat Prima! Dalam rangka kegiatan Sphatika Daarut Tauhid 2.0, Vania Rahma Diyanti siswi Kelas XII SMK Telkom Bandung mendapatkan penghargaan sebagai Juara ke-1 dan Juara Favorite dalam Lomba Poster.
+                              Selamat atas penghargaannya ✨
+                              
+                              𝐏𝐑𝐈𝐌𝐀𝐒𝐄𝐑𝐔
+                              Makin Prima dan Seru dalam Layanan, Karakter dan Prestasi
+                              
+                              𝐒𝐌𝐊 𝐓𝐄𝐋𝐊𝐎𝐌 𝐁𝐀𝐍𝐃𝐔𝐍𝐆
+                              Sekolahnya Sang Juara
+                              
+                            
                                 
-                                𝐏𝐑𝐈𝐌𝐀𝐒𝐄𝐑𝐔
-                                Makin Prima dan Seru dalam Layanan, Karakter dan Prestasi
+                                  </b></br>
+                                 
+                                  <br><br><br><br><br><br><br><br><br><br><br><br><br><br>**********<br> #smktelkombandung #smktelbdg #telkomschools #smkno1bandung #smkswastaterbaik #smkhebatsmkbisa #sekolahnyasangjuara #primaseru2022</br>
                                 
-                                𝐒𝐌𝐊 𝐓𝐄𝐋𝐊𝐎𝐌 𝐁𝐀𝐍𝐃𝐔𝐍𝐆
-                                Sekolahnya Sang Juara
+                                
+                                   </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item bg-light"style="border-radius: 30px 30px 30px 30px;">
+                        <div class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
+                            <div id="carousel29" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active" data-bs-interval="10000">
+                                    <img src="img/speech1.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-cent    er pt-2 px-1"style="border-radius: 30px 30px 30px 30px;">
+                                <a class="btn my-button align-self-start-sm-square btn-danger mx-1" style="border-radius: 30px 30px 30px 30px;"href="https://www.instagram.com/p/CU6sLVXhjNd/"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">𝐒𝐄𝐋𝐀𝐌𝐀𝐓 𝐃𝐀𝐍 𝐒𝐔𝐊𝐒𝐄𝐒
+
+                            </h5>
+                            <small><br><br><b>Sobat Prima! Dalam rangka kegiatan Erlangga English Speech Contest 2021 (EESC), Kanaya Adystha Belva siswi Kelas X SMK Telkom Bandung mendapatkan penghargaan sebagai Juara ke-2.
+                              Selamat atas penghargaannya ✨
+                              
+                              𝐏𝐑𝐈𝐌𝐀𝐒𝐄𝐑𝐔
+                              Makin Prima dan Seru dalam Layanan, Karakter dan Prestasi
+                              
+                              𝐒𝐌𝐊 𝐓𝐄𝐋𝐊𝐎𝐌 𝐁𝐀𝐍𝐃𝐔𝐍𝐆
+                              Sekolahnya Sang Juara
+                                
+                                  </b></br>
+                                 
+                                  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>**********<br> #smktelkombandung #smktelbdg #telkomschools #smkno1bandung #smkswastaterbaik #smkhebatsmkbisa #sekolahnyasangjuara #primaseru2022</br>
+                                
+                                
+                                   </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item bg-light"style="border-radius: 30px 30px 30px 30px;">
+                        <div class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
+                            <div id="carousel30" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active" data-bs-interval="10000">
+                                    <img src="img/web6.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="img/web7.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="img/web8.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel30" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel30" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-cent    er pt-2 px-1"style="border-radius: 30px 30px 30px 30px;">
+                                <a class="btn my-button align-self-start-sm-square btn-danger mx-1" style="border-radius: 30px 30px 30px 30px;"href="https://www.instagram.com/p/CSGKbvulg9V"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">𝐉𝐮𝐚𝐫𝐚 𝐁𝐚𝐬𝐢𝐜 𝐂𝐨𝐝𝐢𝐧𝐠 𝐌𝐢𝐬𝐬𝐢𝐨𝐧
+
+
+                            </h5>
+                            <small><br><b>Selamat kepada ananda Humam Ibadillah Fakhri kelas XI TKJ 1 atas prestasinya meraih Juara 2 Basic Coding Mission Jabar Robotic Expo and Competition 2021
+
+                              Pandemi bukan penghalang untuk berprestasi. Terima kasih ananda Humam Ibadillah Fakhri atas prestasinya, kami bangga!
+                              
+                              𝐏𝐑𝐈𝐌𝐀𝐒𝐄𝐑𝐔
+                              Makin Prima dan Seru dalam Layanan, Karakter dan Prestasi
+                              
+                              𝐒𝐌𝐊 𝐓𝐄𝐋𝐊𝐎𝐌 𝐁𝐀𝐍𝐃𝐔𝐍𝐆
+                              Sekolahnya Sang Juara
+                                
+                                  </b></br>
+                                 
+                                  <br><br><br><br><br><br> <br><br><br><br><br><br><br>**********<br> #smktelkombandung #smktelbdg #telkomschools #smkno1bandung #smkswastaterbaik #smkhebatsmkbisa #ppdbonline2021 #ppdbjabar2021</br>
+                                
+                                
+                                   </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item bg-light"style="border-radius: 30px 30px 30px 30px;">
+                        <div class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
+                            <div id="carousel31" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active" data-bs-interval="10000">
+                                    <img src="img/astra.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="img/astra1.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="img/web8.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel31" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel31" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-cent    er pt-2 px-1"style="border-radius: 30px 30px 30px 30px;">
+                                <a class="btn my-button align-self-start-sm-square btn-danger mx-1" style="border-radius: 30px 30px 30px 30px;"href="https://www.instagram.com/p/CRxrF3ehf5D"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">𝐒𝐢𝐬𝐰𝐚 𝐓𝐞𝐫𝐛𝐚𝐢𝐤 𝐓𝐢𝐧𝐠𝐤𝐚𝐭 𝐑𝐞𝐠𝐢𝐨𝐧𝐚𝐥 𝐉𝐚𝐰𝐚 𝐁𝐚𝐫𝐚𝐭
+
+
+                            </h5>
+                            <small><br><b>Selamat kepada Kak Sabna Nurul Hasanah Kelas XII MM 1 menjadi Juara 1 Astra Honda Motor Best Student 2021 Tingkat Regional Jawa Barat
+
+                              Keren banget ya Sobat Prima! Kak Sabna ini akan mewakili Regional Jawa Barat untuk bersaing dengan peserta lain dari seluruh Indonesia di Tingkat Nasional, kita doakan yuk semoga Kak Sabna menjadi yang terbaik di Tingkat Nasional, aamiin
+                              
+                              Terima kasih Kak Sabna atas prestasinya, kami bangga!
+                              
+                              𝐏𝐑𝐈𝐌𝐀𝐒𝐄𝐑𝐔
+                              Makin Prima dan Seru dalam Layanan, Karakter dan Prestasi
+                              
+                              𝐒𝐌𝐊 𝐓𝐄𝐋𝐊𝐎𝐌 𝐁𝐀𝐍𝐃𝐔𝐍𝐆
+                              Sekolahnya Sang Juara
+                              
+                                
+                                  </b></br>
+                                 
+                                  <br><br><br><br><br><br><br><br><br>**********<br> #smktelkombandung #smktelbdg #telkomschools #smkno1bandung #smkswastaterbaik #smkhebatsmkbisa #ppdbonline2021 #ppdbjabar2021x  </br>
+                                
+                                
+                                   </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item bg-light"style="border-radius: 30px 30px 30px 30px;">
+                        <div class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
+                            <div id="carousel32" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active" data-bs-interval="10000">
+                                    <img src="img/petra.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="img/petra1.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="img/web8.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel32" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel32" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-cent    er pt-2 px-1"style="border-radius: 30px 30px 30px 30px;">
+                                <a class="btn my-button align-self-start-sm-square btn-danger mx-1" style="border-radius: 30px 30px 30px 30px;"href="https://www.instagram.com/p/CRp0g_Fh8O_/"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">𝐉𝐮𝐚𝐫𝐚 𝐍𝐚𝐬𝐢𝐨𝐧𝐚𝐥 𝐝𝐢 𝐌𝐚𝐬𝐚 𝐏𝐚𝐧𝐝𝐞𝐦𝐢
+
+                            </h5>
+                            <small><br><br><br><b>Selamat kepada ananda Muhammad Iqbal Rasyid dari kelas XII TKJ 3 sebagai Juara 1 Petra IoT Bootcamp & Prototyping Online Competition Tingkat Nasional
+
+Terima kasih atas prestasi terbaik ananda, kami bangga!
+
+𝐏𝐑𝐈𝐌𝐀𝐒𝐄𝐑𝐔
+Makin Prima dan Seru dalam Layanan, Karakter dan Prestasi
+
+𝐒𝐌𝐊 𝐓𝐄𝐋𝐊𝐎𝐌 𝐁𝐀𝐍𝐃𝐔𝐍𝐆
+Sekolahnya Sang Juara
+                                
+                                  </b></br>
+                                 
+                                  <br><br><br><br><br><br><br><br><br>**********<br> #smktelkombandung #smktelbdg #telkomschools #smkno1bandung #smkswastaterbaik #smkhebatsmkbisa #ppdbonline2021 #ppdbjabar2021</br>
+                                
+                                
+                                   </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item bg-light"style="border-radius: 30px 30px 30px 30px;">
+                        <div class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
+                            <div id="carousel33" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active" data-bs-interval="10000">
+                                    <img src="img/ml1.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="img/ml2.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="img/web8.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel33" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel33" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-cent    er pt-2 px-1"style="border-radius: 30px 30px 30px 30px;">
+                                <a class="btn my-button align-self-start-sm-square btn-danger mx-1" style="border-radius: 30px 30px 30px 30px;"href="https://www.instagram.com/p/CRIGCjrM1K5/"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">𝐉𝐮𝐚𝐫𝐚 𝐍𝐚𝐬𝐢𝐨𝐧𝐚𝐥 𝐋𝐚𝐠𝐢 𝐃𝐢𝐦𝐚𝐬𝐚 𝐏𝐚𝐧𝐝𝐞𝐦𝐢
+
+
+                            </h5>
+                            <small><br><br><br><b>Selamat untuk Tim E-Sport SMK Telkom Bandung atas prestasinya sebagai Juara 3 E-Sports Mobile Legends pada event Statistics E-Sport Competition Tingkat Nasional yang diselenggarakan oleh Himpunan Mahasiswa Statistika Universitas Islam Bandung 2021.
+
+                              Terima kasih, kami bangga!
+                              
+                              Yang pengen hobi games nya jadi prestasi, yukz gabung ke SMK Telkom Bandung!
+                                
+                                  </b></br>
+                                 
+                                  <br><br><br><br><br><br><br><br>**********<br> #smktelkombandung #smktelbdg #telkomschools #smkno1bandung #smkswastaterbaik #smkhebatsmkbisa #ppdbonline2021 #ppdbjabar2021</br>
+                                
+                                
+                                   </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item bg-light"style="border-radius: 30px 30px 30px 30px;">
+                        <div class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
+                            <div id="carousel34" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active" data-bs-interval="10000">
+                                    <img src="img/vokal.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="img/web8.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel34" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel34" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-cent    er pt-2 px-1"style="border-radius: 30px 30px 30px 30px;">
+                                <a class="btn my-button align-self-start-sm-square btn-danger mx-1" style="border-radius: 30px 30px 30px 30px;"href="https://www.instagram.com/p/CQpfOcgBOMO/"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">𝗝𝘂𝗮𝗿𝗮 𝗹𝗮𝗴𝗶 ...
+
+
+                            </h5>
+                            <small><br><br><br><br><b>Selamat kepada Nazwa Kayla Salsabila siswa SMK Telkom Bandung dari kelas XI MM 4, Juara 3 Vokal Solo FLS2N tingkat Wilayah. Terima kasih telah memberikan prestasi untuk SMK Telkom Bandung, Kami bangga!
+
+                              𝗜𝗻𝗴𝗶𝗻 𝗺𝗲𝗻𝗷𝗮𝗱𝗶 𝗷𝘂𝗮𝗿𝗮 𝗷𝘂𝗴𝗮? 𝘆𝘂𝗸 𝗱𝗮𝗳𝘁𝗮𝗿 𝗱𝗶 𝗦𝗠𝗞 𝗧𝗲𝗹𝗸𝗼𝗺 𝗕𝗮𝗻𝗱𝘂𝗻𝗴 𝘀𝗲𝗸𝗮𝗿𝗮𝗻𝗴 𝗷𝘂𝗴𝗮, 𝗦𝗲𝗸𝗼𝗹𝗮𝗵𝗻𝘆𝗮 𝘀𝗮𝗻𝗴 𝗷𝘂𝗮𝗿𝗮
+                                
+                                  </b></br>
+                                 
+                                  <br><br><br><br><br><br><br><br><br><br>**********<br>#SMKTelkomBandung #SMKTelbdg #sekolahoffline2021 #PPDBJabar2021 #smkhebatsmkjuara #ppdb2021 #jalurreguler3 #5G #ppdbjabar2021</br>
+                                
+                                
+                                   </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item bg-light"style="border-radius: 30px 30px 30px 30px;">
+                        <div class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
+                            <div id="carousel35" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active" data-bs-interval="10000">
+                                    <img src="img/kosan.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="img/web8.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel35" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel35" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-cent    er pt-2 px-1"style="border-radius: 30px 30px 30px 30px;">
+                                <a class="btn my-button align-self-start-sm-square btn-danger mx-1" style="border-radius: 30px 30px 30px 30px;"href="https://www.instagram.com/p/CQYDm9TBuPV/"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">𝗠𝗮𝗻𝘁𝗮𝗽, 𝗝𝘂𝗮𝗿𝗮 𝗟𝗮𝗴𝗶 𝗞𝗮𝗹𝗶 𝗶𝗻𝗶 𝗱𝗮𝗿𝗶 𝗣𝗲𝗻𝗱𝗲𝗸𝗮𝗿 𝗦𝗶𝗹𝗮𝘁 𝗣𝗮𝗱𝗲𝗽𝗼𝗸𝗮𝗻 𝗦𝗠𝗞 𝗧𝗲𝗹𝗸𝗼𝗺 𝗕𝗮𝗻𝗱𝘂𝗻𝗴
+
+
+                            </h5>
+                            <small><br><b>Selamat kepada Raka Naufal Dzakwan siswa SMK Telkom Bandung dari kelas XI TKJ 1, Juara 1 Kompetisi Olahraga Siswa Nasional tingkat Wilayah. Terima kasih telah memberikan prestasi untuk SMK Telkom Bandung, Kami bangga!
+
+                              𝗜𝗻𝗴𝗶𝗻 𝗺𝗲𝗻𝗷𝗮𝗱𝗶 𝗷𝘂𝗮𝗿𝗮 𝗷𝘂𝗴𝗮? 𝘆𝘂𝗸 𝗱𝗮𝗳𝘁𝗮𝗿 𝗱𝗶 𝗦𝗠𝗞 𝗧𝗲𝗹𝗸𝗼𝗺 𝗕𝗮𝗻𝗱𝘂𝗻𝗴 𝘀𝗲𝗸𝗮𝗿𝗮𝗻𝗴 𝗷𝘂𝗴𝗮, 𝗦𝗲𝗸𝗼𝗹𝗮𝗵𝗻𝘆𝗮 𝘀𝗮𝗻𝗴 𝗷𝘂𝗮𝗿𝗮
+                                
+                                  </b></br>
+                                 
+                                  <br><br><br><br><br><br><br><br><br>**********<br> #SMKTelkomBandung #SMKTelbdg #sekolahoffline2021 #PPDBJabar2021 #smkhebatsmkjuara #ppdb2021 #jalurreguler3 #5G #ppdbjabar2021</br>
+                                
+                                
+                                   </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item bg-light"style="border-radius: 30px 30px 30px 30px;">
+                        <div class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
+                            <div id="carousel36" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active" data-bs-interval="10000">
+                                    <img src="img/lukis.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item" data-bs-interval="2000">
+                                    <img src="img/web8.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel36" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel36" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
+                            <div class="bg-light d-flex justify-content-cent    er pt-2 px-1"style="border-radius: 30px 30px 30px 30px;">
+                                <a class="btn my-button align-self-start-sm-square btn-danger mx-1" style="border-radius: 30px 30px 30px 30px;"href="https://www.instagram.com/p/CQLGblyhD_f/"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">𝗝𝘂𝗮𝗿𝗮 𝘀𝘂𝗱𝗮𝗵 𝗺𝗲𝗻𝗷𝗮𝗱𝗶 𝘁𝗿𝗮𝗱𝗶𝘀𝗶 𝗱𝗶 𝘀𝗲𝗸𝗼𝗹𝗮𝗵 𝗶𝗻𝗶.
+
+
+                            </h5>
+                            <small><br><br><b>Selamat kepada Rizky Pratama Putra siswa SMK Telkom Bandung dari kelas X MM 3, Juara 2 Lomba Lukis FLS2N tingkat Wilayah. Terima kasih telah memberikan prestasi untuk SMK Telkom Bandung, Kami bangga!
+
+                              𝗜𝗻𝗴𝗶𝗻 𝗺𝗲𝗻𝗷𝗮𝗱𝗶 𝗷𝘂𝗮𝗿𝗮 𝗷𝘂𝗴𝗮? 𝘆𝘂𝗸 𝗱𝗮𝗳𝘁𝗮𝗿 𝗱𝗶 𝗦𝗠𝗞 𝗧𝗲𝗹𝗸𝗼𝗺 𝗕𝗮𝗻𝗱𝘂𝗻𝗴 𝘀𝗲𝗸𝗮𝗿𝗮𝗻𝗴 𝗷𝘂𝗴𝗮, 𝗦𝗲𝗸𝗼𝗹𝗮𝗵𝗻𝘆𝗮 𝘀𝗮𝗻𝗴 𝗷𝘂𝗮𝗿𝗮
                                 
                                   </b></br>
                                  
@@ -1478,23 +1864,23 @@
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item bg-light"style="border-radius: 30px 30px 30px 30px;">
                         <div class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
-                            <div id="carousel27" class="carousel slide" data-bs-ride="carousel">
+                            <div id="carousel37" class="carousel slide" data-bs-ride="carousel">
                                 <div class="carousel-inner">
                                   <div class="carousel-item active" data-bs-interval="10000">
-                                    <img src="img/web3.jpg" class="d-block w-100" alt="...">
+                                    <img src="img/web9.jpg" class="d-block w-100" alt="...">
                                   </div>
                                   <div class="carousel-item" data-bs-interval="2000">
-                                    <img src="img/web4.jpg" class="d-block w-100" alt="...">
+                                    <img src="img/web10.jpg" class="d-block w-100" alt="...">
                                   </div>
                                   <div class="carousel-item" data-bs-interval="2000">
-                                    <img src="img/web4.jpg" class="d-block w-100" alt="...">
+                                    <img src="img/web8.jpg" class="d-block w-100" alt="...">
                                   </div>
                                 </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel27" data-bs-slide="prev">
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel37" data-bs-slide="prev">
                                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                   <span class="visually-hidden">Previous</span>
                                 </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carousel27" data-bs-slide="next">
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel37" data-bs-slide="next">
                                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                   <span class="visually-hidden">Next</span>
                                 </button>
@@ -1502,51 +1888,47 @@
                         </div>
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
                             <div class="bg-light d-flex justify-content-cent    er pt-2 px-1"style="border-radius: 30px 30px 30px 30px;">
-                                <a class="btn my-button align-self-start-sm-square btn-danger mx-1" style="border-radius: 30px 30px 30px 30px;"href="https://www.instagram.com/p/CV2CLRgsbec/"><i class="fab fa-instagram"></i></a>
+                                <a class="btn my-button align-self-start-sm-square btn-danger mx-1" style="border-radius: 30px 30px 30px 30px;"href="https://www.instagram.com/p/CPzL01ThXAW/"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">𝐒𝐄𝐋𝐀𝐌𝐀𝐓 𝐃𝐀𝐍 𝐒𝐔𝐊𝐒𝐄𝐒
+                            <h5 class="mb-0">𝗝𝘂𝗮𝗿𝗮 𝗡𝗮𝘀𝗶𝗼𝗻𝗮𝗹 𝗟𝗮𝗴𝗶 𝗱𝗼𝗻𝗴, 𝗺𝗲𝗺𝗮𝗻𝗴 𝘀𝘂𝗱𝗮𝗵 𝘁𝗿𝗮𝗱𝗶𝘀𝗶 𝗱𝗶 𝗦𝗠𝗞 𝗧𝗲𝗹𝗸𝗼𝗺 𝗕𝗮𝗻𝗱𝘂𝗻𝗴.
+
 
                             </h5>
-                            <small><br><b>Sobat Prima! Zidan Muhamad Daffa, siswa Kelas XII SMK Telkom Bandung mendapatkan penghargaan sebagai Juara ke-1 Lomba Kategori Web Design Tingkat Nasional, dalam Kegiatan Infinity 2021 bu UKM Progress STIKOMBALI.
-                                Selamat atas penghargaannya ✨
-                                
-                                𝐏𝐑𝐈𝐌𝐀𝐒𝐄𝐑𝐔
-                                Makin Prima dan Seru dalam Layanan, Karakter dan Prestasi
-                                
-                                𝐒𝐌𝐊 𝐓𝐄𝐋𝐊𝐎𝐌 𝐁𝐀𝐍𝐃𝐔𝐍𝐆
-                                Sekolahnya Sang Juara
+                            <small><br><b>Selamat kepada Zidan M. Daffa yang telah Juara 1 Tingkat Nasional dalam kompetisi design Website yang di selenggarakan HIMASI Universitas Jambi. Terima kasih telah berprestasi dan kami bangga!
+
+                              𝗶𝗻𝗴𝗶𝗻 𝗯𝗲𝗿𝗽𝗿𝗲𝘀𝘁𝗮𝘀𝗶 𝗱𝗮𝗻 𝗷𝘂𝗮𝗿𝗮 𝘀𝗲𝗽𝗲𝗿𝘁𝗶 𝘇𝗶𝗱𝗮𝗻? 𝘆𝘂𝗸 𝗱𝗮𝗳𝘁𝗮𝗿 𝗦𝗠𝗞 𝗧𝗲𝗹𝗸𝗼𝗺 𝗕𝗮𝗻𝗱𝘂𝗻𝗴 𝗦𝗲𝗸𝗮𝗿𝗮𝗻𝗴 𝗝𝘂𝗴𝗮
                                 
                                   </b></br>
                                  
-                                  <br><br><br><br><br><br><br><br><br>**********<br> #smktelkombandung #smktelbdg #telkomschools #smkno1bandung #smkswastaterbaik #smkhebatsmkbisa #sekolahnyasangjuara #primaseru2022</br>
+                                  <br><br><br><br><br><br><br><br><br>**********<br>#smkno1bandung #sekolahoffline2021 #smkjuara #smkhebat #smkhebatsmkjuara #smkterbaik</br>
                                 
                                 
-                                   </small>
+                                  <br></small>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item bg-light"style="border-radius: 30px 30px 30px 30px;">
                         <div class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
-                            <div id="carousel27" class="carousel slide" data-bs-ride="carousel">
+                            <div id="carousel38" class="carousel slide" data-bs-ride="carousel">
                                 <div class="carousel-inner">
                                   <div class="carousel-item active" data-bs-interval="10000">
-                                    <img src="img/web3.jpg" class="d-block w-100" alt="...">
+                                    <img src="img/speech2.jpg" class="d-block w-100" alt="...">
                                   </div>
                                   <div class="carousel-item" data-bs-interval="2000">
-                                    <img src="img/web4.jpg" class="d-block w-100" alt="...">
+                                    <img src="img/speech3.jpg" class="d-block w-100" alt="...">
                                   </div>
                                   <div class="carousel-item" data-bs-interval="2000">
-                                    <img src="img/web4.jpg" class="d-block w-100" alt="...">
+                                    <img src="img/web8.jpg" class="d-block w-100" alt="...">
                                   </div>
                                 </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel27" data-bs-slide="prev">
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel38" data-bs-slide="prev">
                                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                   <span class="visually-hidden">Previous</span>
                                 </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carousel27" data-bs-slide="next">
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel38" data-bs-slide="next">
                                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                   <span class="visually-hidden">Next</span>
                                 </button>
@@ -1554,441 +1936,21 @@
                         </div>
                         <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
                             <div class="bg-light d-flex justify-content-cent    er pt-2 px-1"style="border-radius: 30px 30px 30px 30px;">
-                                <a class="btn my-button align-self-start-sm-square btn-danger mx-1" style="border-radius: 30px 30px 30px 30px;"href="https://www.instagram.com/p/CV2CLRgsbec/"><i class="fab fa-instagram"></i></a>
+                                <a class="btn my-button align-self-start-sm-square btn-danger mx-1" style="border-radius: 30px 30px 30px 30px;"href="https://www.instagram.com/p/CO9XLimhj6a/"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                         <div class="text-center p-4">
-                            <h5 class="mb-0">𝐒𝐄𝐋𝐀𝐌𝐀𝐓 𝐃𝐀𝐍 𝐒𝐔𝐊𝐒𝐄𝐒
+                            <h5 class="mb-0">Memang sudah menjadi tradisi DI SMK Telkom Bandung.
+
 
                             </h5>
-                            <small><br><b>Sobat Prima! Zidan Muhamad Daffa, siswa Kelas XII SMK Telkom Bandung mendapatkan penghargaan sebagai Juara ke-1 Lomba Kategori Web Design Tingkat Nasional, dalam Kegiatan Infinity 2021 bu UKM Progress STIKOMBALI.
-                                Selamat atas penghargaannya ✨
-                                
-                                𝐏𝐑𝐈𝐌𝐀𝐒𝐄𝐑𝐔
-                                Makin Prima dan Seru dalam Layanan, Karakter dan Prestasi
-                                
-                                𝐒𝐌𝐊 𝐓𝐄𝐋𝐊𝐎𝐌 𝐁𝐀𝐍𝐃𝐔𝐍𝐆
-                                Sekolahnya Sang Juara
+                            <small><br><b>Selamat ! Aura Febrina Liando (@aurafl_ ) dari XI TKJ 2 menjadi juara kedua English Speech Contest di ajang Sakura Escofest 2021 yang diselenggarakan oleh English Community SMAN 1 Cikarang Utara.
+
+                              Ingin berprestasi seperti ka Aura? yuk segera daftar ke SMK Telkom Bandung sekarang juga
                                 
                                   </b></br>
                                  
-                                  <br><br><br><br><br><br><br><br><br>**********<br> #smktelkombandung #smktelbdg #telkomschools #smkno1bandung #smkswastaterbaik #smkhebatsmkbisa #sekolahnyasangjuara #primaseru2022</br>
-                                
-                                
-                                   </small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="team-item bg-light"style="border-radius: 30px 30px 30px 30px;">
-                        <div class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
-                            <div id="carousel27" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-inner">
-                                  <div class="carousel-item active" data-bs-interval="10000">
-                                    <img src="img/web3.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                  <div class="carousel-item" data-bs-interval="2000">
-                                    <img src="img/web4.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                  <div class="carousel-item" data-bs-interval="2000">
-                                    <img src="img/web4.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel27" data-bs-slide="prev">
-                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                  <span class="visually-hidden">Previous</span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carousel27" data-bs-slide="next">
-                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                  <span class="visually-hidden">Next</span>
-                                </button>
-                              </div>
-                        </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
-                            <div class="bg-light d-flex justify-content-cent    er pt-2 px-1"style="border-radius: 30px 30px 30px 30px;">
-                                <a class="btn my-button align-self-start-sm-square btn-danger mx-1" style="border-radius: 30px 30px 30px 30px;"href="https://www.instagram.com/p/CV2CLRgsbec/"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">𝐒𝐄𝐋𝐀𝐌𝐀𝐓 𝐃𝐀𝐍 𝐒𝐔𝐊𝐒𝐄𝐒
-
-                            </h5>
-                            <small><br><b>Sobat Prima! Zidan Muhamad Daffa, siswa Kelas XII SMK Telkom Bandung mendapatkan penghargaan sebagai Juara ke-1 Lomba Kategori Web Design Tingkat Nasional, dalam Kegiatan Infinity 2021 bu UKM Progress STIKOMBALI.
-                                Selamat atas penghargaannya ✨
-                                
-                                𝐏𝐑𝐈𝐌𝐀𝐒𝐄𝐑𝐔
-                                Makin Prima dan Seru dalam Layanan, Karakter dan Prestasi
-                                
-                                𝐒𝐌𝐊 𝐓𝐄𝐋𝐊𝐎𝐌 𝐁𝐀𝐍𝐃𝐔𝐍𝐆
-                                Sekolahnya Sang Juara
-                                
-                                  </b></br>
-                                 
-                                  <br><br><br><br><br><br><br><br><br>**********<br> #smktelkombandung #smktelbdg #telkomschools #smkno1bandung #smkswastaterbaik #smkhebatsmkbisa #sekolahnyasangjuara #primaseru2022</br>
-                                
-                                
-                                   </small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="team-item bg-light"style="border-radius: 30px 30px 30px 30px;">
-                        <div class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
-                            <div id="carousel27" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-inner">
-                                  <div class="carousel-item active" data-bs-interval="10000">
-                                    <img src="img/web3.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                  <div class="carousel-item" data-bs-interval="2000">
-                                    <img src="img/web4.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                  <div class="carousel-item" data-bs-interval="2000">
-                                    <img src="img/web4.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel27" data-bs-slide="prev">
-                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                  <span class="visually-hidden">Previous</span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carousel27" data-bs-slide="next">
-                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                  <span class="visually-hidden">Next</span>
-                                </button>
-                              </div>
-                        </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
-                            <div class="bg-light d-flex justify-content-cent    er pt-2 px-1"style="border-radius: 30px 30px 30px 30px;">
-                                <a class="btn my-button align-self-start-sm-square btn-danger mx-1" style="border-radius: 30px 30px 30px 30px;"href="https://www.instagram.com/p/CV2CLRgsbec/"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">𝐒𝐄𝐋𝐀𝐌𝐀𝐓 𝐃𝐀𝐍 𝐒𝐔𝐊𝐒𝐄𝐒
-
-                            </h5>
-                            <small><br><b>Sobat Prima! Zidan Muhamad Daffa, siswa Kelas XII SMK Telkom Bandung mendapatkan penghargaan sebagai Juara ke-1 Lomba Kategori Web Design Tingkat Nasional, dalam Kegiatan Infinity 2021 bu UKM Progress STIKOMBALI.
-                                Selamat atas penghargaannya ✨
-                                
-                                𝐏𝐑𝐈𝐌𝐀𝐒𝐄𝐑𝐔
-                                Makin Prima dan Seru dalam Layanan, Karakter dan Prestasi
-                                
-                                𝐒𝐌𝐊 𝐓𝐄𝐋𝐊𝐎𝐌 𝐁𝐀𝐍𝐃𝐔𝐍𝐆
-                                Sekolahnya Sang Juara
-                                
-                                  </b></br>
-                                 
-                                  <br><br><br><br><br><br><br><br><br>**********<br> #smktelkombandung #smktelbdg #telkomschools #smkno1bandung #smkswastaterbaik #smkhebatsmkbisa #sekolahnyasangjuara #primaseru2022</br>
-                                
-                                
-                                   </small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="team-item bg-light"style="border-radius: 30px 30px 30px 30px;">
-                        <div class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
-                            <div id="carousel27" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-inner">
-                                  <div class="carousel-item active" data-bs-interval="10000">
-                                    <img src="img/web3.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                  <div class="carousel-item" data-bs-interval="2000">
-                                    <img src="img/web4.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                  <div class="carousel-item" data-bs-interval="2000">
-                                    <img src="img/web4.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel27" data-bs-slide="prev">
-                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                  <span class="visually-hidden">Previous</span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carousel27" data-bs-slide="next">
-                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                  <span class="visually-hidden">Next</span>
-                                </button>
-                              </div>
-                        </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
-                            <div class="bg-light d-flex justify-content-cent    er pt-2 px-1"style="border-radius: 30px 30px 30px 30px;">
-                                <a class="btn my-button align-self-start-sm-square btn-danger mx-1" style="border-radius: 30px 30px 30px 30px;"href="https://www.instagram.com/p/CV2CLRgsbec/"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">𝐒𝐄𝐋𝐀𝐌𝐀𝐓 𝐃𝐀𝐍 𝐒𝐔𝐊𝐒𝐄𝐒
-
-                            </h5>
-                            <small><br><b>Sobat Prima! Zidan Muhamad Daffa, siswa Kelas XII SMK Telkom Bandung mendapatkan penghargaan sebagai Juara ke-1 Lomba Kategori Web Design Tingkat Nasional, dalam Kegiatan Infinity 2021 bu UKM Progress STIKOMBALI.
-                                Selamat atas penghargaannya ✨
-                                
-                                𝐏𝐑𝐈𝐌𝐀𝐒𝐄𝐑𝐔
-                                Makin Prima dan Seru dalam Layanan, Karakter dan Prestasi
-                                
-                                𝐒𝐌𝐊 𝐓𝐄𝐋𝐊𝐎𝐌 𝐁𝐀𝐍𝐃𝐔𝐍𝐆
-                                Sekolahnya Sang Juara
-                                
-                                  </b></br>
-                                 
-                                  <br><br><br><br><br><br><br><br><br>**********<br> #smktelkombandung #smktelbdg #telkomschools #smkno1bandung #smkswastaterbaik #smkhebatsmkbisa #sekolahnyasangjuara #primaseru2022</br>
-                                
-                                
-                                   </small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="team-item bg-light"style="border-radius: 30px 30px 30px 30px;">
-                        <div class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
-                            <div id="carousel27" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-inner">
-                                  <div class="carousel-item active" data-bs-interval="10000">
-                                    <img src="img/web3.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                  <div class="carousel-item" data-bs-interval="2000">
-                                    <img src="img/web4.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                  <div class="carousel-item" data-bs-interval="2000">
-                                    <img src="img/web4.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel27" data-bs-slide="prev">
-                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                  <span class="visually-hidden">Previous</span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carousel27" data-bs-slide="next">
-                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                  <span class="visually-hidden">Next</span>
-                                </button>
-                              </div>
-                        </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
-                            <div class="bg-light d-flex justify-content-cent    er pt-2 px-1"style="border-radius: 30px 30px 30px 30px;">
-                                <a class="btn my-button align-self-start-sm-square btn-danger mx-1" style="border-radius: 30px 30px 30px 30px;"href="https://www.instagram.com/p/CV2CLRgsbec/"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">𝐒𝐄𝐋𝐀𝐌𝐀𝐓 𝐃𝐀𝐍 𝐒𝐔𝐊𝐒𝐄𝐒
-
-                            </h5>
-                            <small><br><b>Sobat Prima! Zidan Muhamad Daffa, siswa Kelas XII SMK Telkom Bandung mendapatkan penghargaan sebagai Juara ke-1 Lomba Kategori Web Design Tingkat Nasional, dalam Kegiatan Infinity 2021 bu UKM Progress STIKOMBALI.
-                                Selamat atas penghargaannya ✨
-                                
-                                𝐏𝐑𝐈𝐌𝐀𝐒𝐄𝐑𝐔
-                                Makin Prima dan Seru dalam Layanan, Karakter dan Prestasi
-                                
-                                𝐒𝐌𝐊 𝐓𝐄𝐋𝐊𝐎𝐌 𝐁𝐀𝐍𝐃𝐔𝐍𝐆
-                                Sekolahnya Sang Juara
-                                
-                                  </b></br>
-                                 
-                                  <br><br><br><br><br><br><br><br><br>**********<br> #smktelkombandung #smktelbdg #telkomschools #smkno1bandung #smkswastaterbaik #smkhebatsmkbisa #sekolahnyasangjuara #primaseru2022</br>
-                                
-                                
-                                   </small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="team-item bg-light"style="border-radius: 30px 30px 30px 30px;">
-                        <div class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
-                            <div id="carousel27" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-inner">
-                                  <div class="carousel-item active" data-bs-interval="10000">
-                                    <img src="img/web3.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                  <div class="carousel-item" data-bs-interval="2000">
-                                    <img src="img/web4.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                  <div class="carousel-item" data-bs-interval="2000">
-                                    <img src="img/web4.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel27" data-bs-slide="prev">
-                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                  <span class="visually-hidden">Previous</span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carousel27" data-bs-slide="next">
-                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                  <span class="visually-hidden">Next</span>
-                                </button>
-                              </div>
-                        </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
-                            <div class="bg-light d-flex justify-content-cent    er pt-2 px-1"style="border-radius: 30px 30px 30px 30px;">
-                                <a class="btn my-button align-self-start-sm-square btn-danger mx-1" style="border-radius: 30px 30px 30px 30px;"href="https://www.instagram.com/p/CV2CLRgsbec/"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">𝐒𝐄𝐋𝐀𝐌𝐀𝐓 𝐃𝐀𝐍 𝐒𝐔𝐊𝐒𝐄𝐒
-
-                            </h5>
-                            <small><br><b>Sobat Prima! Zidan Muhamad Daffa, siswa Kelas XII SMK Telkom Bandung mendapatkan penghargaan sebagai Juara ke-1 Lomba Kategori Web Design Tingkat Nasional, dalam Kegiatan Infinity 2021 bu UKM Progress STIKOMBALI.
-                                Selamat atas penghargaannya ✨
-                                
-                                𝐏𝐑𝐈𝐌𝐀𝐒𝐄𝐑𝐔
-                                Makin Prima dan Seru dalam Layanan, Karakter dan Prestasi
-                                
-                                𝐒𝐌𝐊 𝐓𝐄𝐋𝐊𝐎𝐌 𝐁𝐀𝐍𝐃𝐔𝐍𝐆
-                                Sekolahnya Sang Juara
-                                
-                                  </b></br>
-                                 
-                                  <br><br><br><br><br><br><br><br><br>**********<br> #smktelkombandung #smktelbdg #telkomschools #smkno1bandung #smkswastaterbaik #smkhebatsmkbisa #sekolahnyasangjuara #primaseru2022</br>
-                                
-                                
-                                   </small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="team-item bg-light"style="border-radius: 30px 30px 30px 30px;">
-                        <div class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
-                            <div id="carousel27" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-inner">
-                                  <div class="carousel-item active" data-bs-interval="10000">
-                                    <img src="img/web3.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                  <div class="carousel-item" data-bs-interval="2000">
-                                    <img src="img/web4.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                  <div class="carousel-item" data-bs-interval="2000">
-                                    <img src="img/web4.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel27" data-bs-slide="prev">
-                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                  <span class="visually-hidden">Previous</span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carousel27" data-bs-slide="next">
-                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                  <span class="visually-hidden">Next</span>
-                                </button>
-                              </div>
-                        </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
-                            <div class="bg-light d-flex justify-content-cent    er pt-2 px-1"style="border-radius: 30px 30px 30px 30px;">
-                                <a class="btn my-button align-self-start-sm-square btn-danger mx-1" style="border-radius: 30px 30px 30px 30px;"href="https://www.instagram.com/p/CV2CLRgsbec/"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">𝐒𝐄𝐋𝐀𝐌𝐀𝐓 𝐃𝐀𝐍 𝐒𝐔𝐊𝐒𝐄𝐒
-
-                            </h5>
-                            <small><br><b>Sobat Prima! Zidan Muhamad Daffa, siswa Kelas XII SMK Telkom Bandung mendapatkan penghargaan sebagai Juara ke-1 Lomba Kategori Web Design Tingkat Nasional, dalam Kegiatan Infinity 2021 bu UKM Progress STIKOMBALI.
-                                Selamat atas penghargaannya ✨
-                                
-                                𝐏𝐑𝐈𝐌𝐀𝐒𝐄𝐑𝐔
-                                Makin Prima dan Seru dalam Layanan, Karakter dan Prestasi
-                                
-                                𝐒𝐌𝐊 𝐓𝐄𝐋𝐊𝐎𝐌 𝐁𝐀𝐍𝐃𝐔𝐍𝐆
-                                Sekolahnya Sang Juara
-                                
-                                  </b></br>
-                                 
-                                  <br><br><br><br><br><br><br><br><br>**********<br> #smktelkombandung #smktelbdg #telkomschools #smkno1bandung #smkswastaterbaik #smkhebatsmkbisa #sekolahnyasangjuara #primaseru2022</br>
-                                
-                                
-                                   </small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="team-item bg-light"style="border-radius: 30px 30px 30px 30px;">
-                        <div class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
-                            <div id="carousel27" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-inner">
-                                  <div class="carousel-item active" data-bs-interval="10000">
-                                    <img src="img/web3.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                  <div class="carousel-item" data-bs-interval="2000">
-                                    <img src="img/web4.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                  <div class="carousel-item" data-bs-interval="2000">
-                                    <img src="img/web4.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel27" data-bs-slide="prev">
-                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                  <span class="visually-hidden">Previous</span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carousel27" data-bs-slide="next">
-                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                  <span class="visually-hidden">Next</span>
-                                </button>
-                              </div>
-                        </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
-                            <div class="bg-light d-flex justify-content-cent    er pt-2 px-1"style="border-radius: 30px 30px 30px 30px;">
-                                <a class="btn my-button align-self-start-sm-square btn-danger mx-1" style="border-radius: 30px 30px 30px 30px;"href="https://www.instagram.com/p/CV2CLRgsbec/"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">𝐒𝐄𝐋𝐀𝐌𝐀𝐓 𝐃𝐀𝐍 𝐒𝐔𝐊𝐒𝐄𝐒
-
-                            </h5>
-                            <small><br><b>Sobat Prima! Zidan Muhamad Daffa, siswa Kelas XII SMK Telkom Bandung mendapatkan penghargaan sebagai Juara ke-1 Lomba Kategori Web Design Tingkat Nasional, dalam Kegiatan Infinity 2021 bu UKM Progress STIKOMBALI.
-                                Selamat atas penghargaannya ✨
-                                
-                                𝐏𝐑𝐈𝐌𝐀𝐒𝐄𝐑𝐔
-                                Makin Prima dan Seru dalam Layanan, Karakter dan Prestasi
-                                
-                                𝐒𝐌𝐊 𝐓𝐄𝐋𝐊𝐎𝐌 𝐁𝐀𝐍𝐃𝐔𝐍𝐆
-                                Sekolahnya Sang Juara
-                                
-                                  </b></br>
-                                 
-                                  <br><br><br><br><br><br><br><br><br>**********<br> #smktelkombandung #smktelbdg #telkomschools #smkno1bandung #smkswastaterbaik #smkhebatsmkbisa #sekolahnyasangjuara #primaseru2022</br>
-                                
-                                
-                                   </small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="team-item bg-light"style="border-radius: 30px 30px 30px 30px;">
-                        <div class="overflow-hidden"style="border-radius: 30px 30px 30px 30px;">
-                            <div id="carousel27" class="carousel slide" data-bs-ride="carousel">
-                                <div class="carousel-inner">
-                                  <div class="carousel-item active" data-bs-interval="10000">
-                                    <img src="img/web3.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                  <div class="carousel-item" data-bs-interval="2000">
-                                    <img src="img/web4.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                  <div class="carousel-item" data-bs-interval="2000">
-                                    <img src="img/web4.jpg" class="d-block w-100" alt="...">
-                                  </div>
-                                </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel27" data-bs-slide="prev">
-                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                  <span class="visually-hidden">Previous</span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carousel27" data-bs-slide="next">
-                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                  <span class="visually-hidden">Next</span>
-                                </button>
-                              </div>
-                        </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
-                            <div class="bg-light d-flex justify-content-cent    er pt-2 px-1"style="border-radius: 30px 30px 30px 30px;">
-                                <a class="btn my-button align-self-start-sm-square btn-danger mx-1" style="border-radius: 30px 30px 30px 30px;"href="https://www.instagram.com/p/CV2CLRgsbec/"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">𝐒𝐄𝐋𝐀𝐌𝐀𝐓 𝐃𝐀𝐍 𝐒𝐔𝐊𝐒𝐄𝐒
-
-                            </h5>
-                            <small><br><b>Sobat Prima! Zidan Muhamad Daffa, siswa Kelas XII SMK Telkom Bandung mendapatkan penghargaan sebagai Juara ke-1 Lomba Kategori Web Design Tingkat Nasional, dalam Kegiatan Infinity 2021 bu UKM Progress STIKOMBALI.
-                                Selamat atas penghargaannya ✨
-                                
-                                𝐏𝐑𝐈𝐌𝐀𝐒𝐄𝐑𝐔
-                                Makin Prima dan Seru dalam Layanan, Karakter dan Prestasi
-                                
-                                𝐒𝐌𝐊 𝐓𝐄𝐋𝐊𝐎𝐌 𝐁𝐀𝐍𝐃𝐔𝐍𝐆
-                                Sekolahnya Sang Juara
-                                
-                                  </b></br>
-                                 
-                                  <br><br><br><br><br><br><br><br><br>**********<br> #smktelkombandung #smktelbdg #telkomschools #smkno1bandung #smkswastaterbaik #smkhebatsmkbisa #sekolahnyasangjuara #primaseru2022</br>
+                                  <br><br><br><br><br><br><br><br><br>**********<br> #smktelkombandung #smkno1bandung #sekolahoffline2021 #smkjuara #smkhebat #smkhebatsmkjuara #smkterbaik</br>
                                 
                                 
                                    </small>
@@ -2068,7 +2030,7 @@
 
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-danger btn-lg-square back-to-top"style="border-radius: 30px 30px 30px 30px;"><i class="bi bi-arrow-up"></i></a>
+    <a href="#" class="btn my-button align-self-start-lg-square back-to-top"style="border-radius: 30px 30px 30px 30px;"><i class="bi bi-arrow-up"></i></a>
 
 
     <!-- JavaScript Libraries -->
