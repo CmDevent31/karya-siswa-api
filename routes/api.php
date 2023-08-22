@@ -4,6 +4,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\EkskulController;
+use App\Http\Controllers\EventsController;
 use App\Http\Controllers\ArticleController;
 use App\Http\Controllers\CommentController;
 use App\Http\Controllers\ProductController;
@@ -58,3 +59,6 @@ Route::post('/updatestock/{id}',[ProductStockController::class,'update']);
 
 Route::post('/addekskul',[EkskulController::class,'store']);
 Route::get('/listekskul',[EkskulController::class,'list']);
+
+Route::get('/listevent',[EventsController::class,'list']);
+Route::post('/addevent',[EventsController::class,'store']);
