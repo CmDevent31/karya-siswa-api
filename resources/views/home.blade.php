@@ -410,12 +410,12 @@
                                 
                                 <p class="text-center"> <b>Sebagai peraih medali emas di nomor komite pada kejuaraan karate STKIP Pasundan Cup V Sirkuit II Jawa Barat 2023.Yuk jadikan prestasi sebagai tradisi.</b></p>
                             
-                            <br><br>@karate.smktelbdg
+                            <br>@karate.smktelbdg
                                 #realchampion
                                     #bearealdigitaltalent
                                          #smkhebat
-                                             #smkbisa
-                            </small>
+                                             #smkbisa</br>
+                          <br>  </small>
                                 </div>
                          </div>
                     
